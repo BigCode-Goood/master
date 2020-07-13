@@ -98,7 +98,7 @@ def download(url):
     filename=dir+"\\main.py"
     code_lines=[]
     try:
-        fp=open(filename,"r")
+        fp=open(filename,"r",encoding='utf-8')#
         print("%s 文件打开成功" %filename)
         line=fp.readline()
         while line:
@@ -178,14 +178,30 @@ if __name__ == '__main__':
             for cases in user_cases:
                 case = {}
                 case['case_id'] = cases['case_id']
-                case['case_type'] = cases['case_type']
+                if cases['case_type']=="字符串":
+                    case['case_type'] = 1
+                elif cases['case_type']=="数字操作":
+                    case['case_type'] = 2
+                elif cases['case_type']=="数组":
+                    case['case_type'] = 3
+                elif cases['case_type']=="排序算法":
+                    case['case_type'] = 4
+                elif cases['case_type']=="查找算法":
+                    case['case_type'] = 5
+                elif cases['case_type']=="线性表":
+                    case['case_type'] = 6
+                elif cases['case_type']=="图结构":
+                    case['case_type'] = 7
+                elif cases['case_type']=="树结构":
+                    case['case_type'] = 8
                 upload_records = cases['upload_records']
                 index = len(upload_records)
-                case['upload_times'] = index
                 if index == 0:
                     continue
                 else:
+                    case['upload_count'] = index
                     case['case_url'] = upload_records[index - 1]['code_url']
+                    case['datetime'] = upload_records[index - 1]['upload_time']
                     case['code_length']=download(case['case_url'])
                     if case['code_length']==0:
                         case['final_score'] = 0.0
@@ -194,8 +210,7 @@ if __name__ == '__main__':
                 item_cases.append(case)
             item['casses'] = item_cases
             code_url.append(item)
-    codeLengthJson = json.dumps(code_url[0], ensure_ascii=False)
-    print(codeLengthJson)
+    codeLengthJson = json.dumps(code_url, ensure_ascii=False)
 
     with open("code_length.json", "w") as fp:
         fp.write(codeLengthJson)
