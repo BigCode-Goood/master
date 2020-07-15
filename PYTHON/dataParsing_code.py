@@ -141,25 +141,45 @@ def getValicLength(code_lines):  # 去除cpp代码和面向用例代码
         else:
             if inEx:
                 continue
-            if "#" in code_lines[i] or code_lines[i] == '\n':
+            if code_lines[i] == '\n':
                 exNum += 1
+            elif "#" in code_lines[i]:
+                emp=0
+                while code_lines[i][emp]==' ':
+                    emp+=1
+                if code_lines[i][emp]=="#":
+                    exNum+=1
             else:
                 if "if" in code_lines[i]:
                     ifNum += 1
-                elif "else" in code_lines[i] or "elif" in code_lines[i]:
+                elif "else" in code_lines[i]:
                     elseNum += 1
                 elif "print" in code_lines[i]:
                     printNum += 1
 
     if (len(code_lines) - exNum) == 0:
         return 0
-    if (ifNum + elseNum + printNum) / (len(code_lines) - exNum) >= 0.8:
-        return 0
 
+
+    if (ifNum + elseNum + printNum) / (len(code_lines) - exNum) >= 0.6:
+        return 0
+    if printNum>4:
+        return 0
+    if printNum/len(code_lines)>=0.32:
+        return 0
     return len(code_lines) - exNum
 
 
 if __name__ == '__main__':
+    # f = open('main.py', encoding='utf-8')
+    # line = f.readline()
+    # code_lines=[]
+    # while line:
+    #     code_lines.append(line)
+    #     line = f.readline()
+    # f.close()
+    # len=getValicLength(code_lines)
+    # print(len)
 
     # len=download("http://mooctest-dev.oss-cn-shanghai.aliyuncs.com/data/answers/4249/3544/%E5%8D%95%E8%AF%8D%E5%88%86%E7%B1%BB_1582558143538.zip")
     # print(len)
@@ -218,5 +238,5 @@ if __name__ == '__main__':
             code_url.append(item)
     codeLengthJson = json.dumps(code_url, ensure_ascii=False)
 
-    with open("code_length.json", "w") as fp:
+    with open("code_length_2.0.json", "w") as fp:
         fp.write(codeLengthJson)
