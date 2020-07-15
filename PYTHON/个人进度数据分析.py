@@ -2,7 +2,7 @@ import json
 import time
 
 if __name__ == '__main__':
-    f = open('code_length.json', encoding='utf-8')
+    f = open('code_length_2.0.json', encoding='utf-8')
     res = f.read()
     user_data = json.loads(res)
 
