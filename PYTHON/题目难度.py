@@ -1,8 +1,8 @@
 import json
 import math
-import matplotlib.pyplot as plt
+import matplotlib.pyplot
 
-user_msg = open('D:/数据科学/master/JSON/code_length_2.0.json', encoding='utf-8')
+user_msg = open('D:/数据科学/master/JSON/code_length.json', encoding='utf-8')
 res1 = user_msg.read()
 data_user_msg = json.loads(res1)
 
@@ -28,32 +28,28 @@ def get_case_message():
             "代码行数": 0,
             "提交次数": 0
         }
-    all_lines=[]
     for d_u_m in data_user_msg:
         for case in d_u_m["casses"]:
             caseId = case["case_id"]
-            if case["final_score"] >= 50:
+            if case["final_score"] == 0:
                 zeroNum [caseId]+=1
             dic_difficulty[caseId]["类型"] = case["case_type"]
             dic_difficulty[caseId]["分数"] += case["final_score"]
             dic_difficulty[caseId]["代码行数"] += case["code_length"]
             # print("代码行数",case["code_length"])
-            if case["final_score"] >= 50:
-                dic_difficulty[caseId]["提交次数"] += case["upload_count"]
+            dic_difficulty[caseId]["提交次数"] += case["upload_count"]
     for dicId in dic_difficulty:
         dic = dic_difficulty[dicId]
-        # print(dic)
-        # print((studentNum-zeroNum[dicId]))
+        print(dic)
+        print((studentNum-zeroNum[dicId]))
         dic["分数"] = int(dic["分数"]) / studentNum
         dic["代码行数"] = int(dic["代码行数"]) / (studentNum-zeroNum[dicId])
-        all_lines.append(dic["代码行数"])
         dic["提交次数"] = int(dic["提交次数"]) / (studentNum-zeroNum[dicId])
         print(zeroNum[dicId])
     print(dic_difficulty,zeroNum)
     with open('D:/数据科学/master/JSON/题目信息.json', 'a', encoding='utf8') as file:
         json.dump(dic_difficulty, file, ensure_ascii=False)
-    all_lines.sort()
-    print(all_lines)
+
 
 # 计算类型均分
 def type_average():
@@ -70,16 +66,15 @@ def type_average():
     dic_average = {}
     for case_type in range(1, 9):
         dic_average[case_type] = scores[case_type - 1][0]
-    with open('D:/数据科学/master/JSON/题型均分.json', 'a', encoding='utf8') as file:
-        json.dump(dic_average, file, ensure_ascii=False)
+    # with open('D:/数据科学/master/JSON/题型均分.json', 'a', encoding='utf8') as file:
+    # json.dump(dic_average, file, ensure_ascii=False)
 
 
 # 画图
-def draw(x,y):
-    plt.plot(x,y)
-    plt.title("case_difficulty")
-#    plt.savefig("题目难度" + '.png') # 保存图片
-    plt.show()
+def autolabel(rects):
+    for rect in rects:
+        height = rect.get_height()
+        matplotlib.pyplot.text(rect.get_x() + rect.get_width() / 2. - 0.2, 1.03 * height, '%s' % int(height))
 
 
 # 计算题目难度公式
@@ -87,11 +82,13 @@ def calculation(case_score, type_score, lines, upload):
     if upload < 1:
         upload = 1
     # if case_score >= 85: case_score = 100
-    dif = math.pow(100 / case_score, 0.8) * math.pow(100 / type_score, 0.7) * (1 + 0.3*math.log(lines, 150)) * (
+    dif = math.pow(100 / case_score, 0.8) * math.pow(100 / type_score, 0.7) * (1 + 0.3*math.log(lines, 100)) * (
             1 + 0.2*math.log(upload, 10))
+    if dif > 2:
+        print(case_score, type_score, lines, upload)
     print((1 + math.log(lines, 100)),"代码长度")
     print( 1 + math.log(upload, 10),"提交次数")
-    return 0.92+dif/20
+    return 0.7+dif/4
 
 
 # 计算题目难度
@@ -123,15 +120,15 @@ def cal_difficulty():
         num_list.append(dic_difficulty[caseId])
     print(dic_difficulty)
     num_list.sort()
-    draw([i for i in range(1,201)],num_list)
-
-    # #
+    autolabel(matplotlib.pyplot.bar(range(len(dic_difficulty)), num_list, color='rgb'))
+    matplotlib.pyplot.show()
+    #
     with open('D:/数据科学/master/JSON/题目难度.json', 'a', encoding='utf8') as file:
         json.dump(dic_difficulty, file, ensure_ascii=False)
 
-# #
+#
 # get_case_message()
-# # #
+# #
 # type_average()
 #
 cal_difficulty()
