@@ -36,6 +36,11 @@ def func5(x, a, b, c, d):
     return a * np.sin(b * x + c) + d
 
 
+# 指数函数
+def func6(x, a, b, c):
+    return a * b ** x + c
+
+
 def x_n(x, y, n):
     # 直接n次多项式拟合
     f1 = np.polyfit(x, y, n)
@@ -54,9 +59,9 @@ def x_n(x, y, n):
 if __name__ == '__main__':
 
     # 用于拟合的函数
-    func_list = [func1, func2, func3, func4, func5]
+    func_list = [func1, func2, func3, func4, func5, func6]
 
-    for user_id in [1, 2, 3]:  # 输入要查看的userId
+    for user_id in range(0,53):  # 输入要查看的userId
         # 记录最小标准差选择拟合函数
         min_error_val = None
         # 最终确认的拟合曲线
@@ -65,7 +70,7 @@ if __name__ == '__main__':
         # 拟合曲线类型
         # 三次函数形状问题？找拐点
         fit_type = -1
-        type_list = ["高斯函数", "幂函数", "对数函数", "S型函数", "sin", "一次增函数", "一次减函数", "U型二次函数", "n型二次函数", "a>0的三次函数", "a<0的三次函数"]
+        type_list = ["高斯函数", "幂函数", "对数函数", "S型函数", "sin", "指数函数", "一次增函数", "一次减函数", "U型二次函数", "n型二次函数"]
 
         f = open('personal_progress_data.json', encoding='utf-8')
         res = f.read()
@@ -116,7 +121,7 @@ if __name__ == '__main__':
         for func in func_list:
             try:
                 popt, pcov = curve_fit(func, x, y)
-
+                cf = func
                 # 获取popt里面是拟合系数
                 # print(popt)
                 yvals = func(x, *popt)  # 拟合y值
@@ -144,24 +149,25 @@ if __name__ == '__main__':
             yvals = res["yvals"]
             # 判断是否为最佳拟合
             if min_error_val is None or er_val < min_error_val:
-                # if n==2:
-                #     T = 1 #todo:没写完
-                #     print(popt[1], T)
-                #     if len(x) <= 2 * T:
-                #         type += 1
-                #         continue
+                if n == 2:
+                    a = res["系数"][0]
+                    b = res["系数"][1]
+                    T=-b/(2*a)  # 求出拐点，若拐点不在图像显示区间内则抛弃
+                    print(popt[1], T)
+                    if T<=0 or len(x) <= T:
+                        type += 1
+                        continue
                 min_error_val = er_val
                 y_fit_val = yvals
+                if n == 2:
+                    if res["系数"][0] > 0:  # 判断a后直接给type赋值
+                        type = 8
+                    else:
+                        type = 9
                 if yvals[0] > 0:
                     fit_type = type
                 else:
-                    fit_type = type + 1
-            type += 1
-            # if n != 3:
-            #     type += 2
-            # if n == 3:
-            #     # todo:考虑拐点？
-            #     pass
+                    fit_type = type
 
         # 2:u,n
         # 3:/\/ \/\
@@ -177,5 +183,5 @@ if __name__ == '__main__':
         plt.xlabel("period", fontsize=12)
         plt.ylabel("completion", fontsize=12)
         plt.tick_params(axis='both', labelsize=10)
-        plt.savefig('D:/数据科学/master/pics/test/' + user['user_id'] + '.png')  # 保存图片
+        plt.savefig('I:/big_code_backup/3天拟合图/' + user['user_id'] +'_3' +'.png')  # 保存图片
         plt.show()
