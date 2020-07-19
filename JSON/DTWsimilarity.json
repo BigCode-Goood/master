@@ -1,0 +1,206 @@
+{
+  "48117": {
+    "BestCompanion": "60762",
+    "DTW_similarity": 6612.559424316816
+  },
+  "49405": {
+    "BestCompanion": "60812",
+    "DTW_similarity": 8037.58386654437
+  },
+  "60581": {
+    "BestCompanion": "60671",
+    "DTW_similarity": 5935.779286841128
+  },
+  "60587": {
+    "BestCompanion": "60896",
+    "DTW_similarity": 7134.187424754732
+  },
+  "60604": {
+    "BestCompanion": "60707",
+    "DTW_similarity": 7557.652694076913
+  },
+  "60606": {
+    "BestCompanion": "60832",
+    "DTW_similarity": 7452.757971371633
+  },
+  "60616": {
+    "BestCompanion": "60639",
+    "DTW_similarity": 6100.553052709445
+  },
+  "60619": {
+    "BestCompanion": "60671",
+    "DTW_similarity": 4793.886055516479
+  },
+  "60631": {
+    "BestCompanion": "60708",
+    "DTW_similarity": 4930.438435472116
+  },
+  "60634": {
+    "BestCompanion": "60895",
+    "DTW_similarity": 7541.184372513332
+  },
+  "60635": {
+    "BestCompanion": "60769",
+    "DTW_similarity": 7535.31275293061
+  },
+  "60639": {
+    "BestCompanion": "60708",
+    "DTW_similarity": 5351.006398501167
+  },
+  "60654": {
+    "BestCompanion": "61094",
+    "DTW_similarity": 5872.213504364084
+  },
+  "60665": {
+    "BestCompanion": "60708",
+    "DTW_similarity": 6928.4332130391285
+  },
+  "60671": {
+    "BestCompanion": "60619",
+    "DTW_similarity": 4793.886055516479
+  },
+  "60676": {
+    "BestCompanion": "60769",
+    "DTW_similarity": 6875.07221063795
+  },
+  "60686": {
+    "BestCompanion": "49405",
+    "DTW_similarity": 9052.799547822637
+  },
+  "60707": {
+    "BestCompanion": "61094",
+    "DTW_similarity": 5185.1851617028915
+  },
+  "60708": {
+    "BestCompanion": "60631",
+    "DTW_similarity": 4930.438435472116
+  },
+  "60715": {
+    "BestCompanion": "60615",
+    "DTW_similarity": 10164.01510995781
+  },
+  "60737": {
+    "BestCompanion": "60708",
+    "DTW_similarity": 7904.547342967016
+  },
+  "60752": {
+    "BestCompanion": "60769",
+    "DTW_similarity": 5989.316091158763
+  },
+  "60760": {
+    "BestCompanion": "60833",
+    "DTW_similarity": 9430.166882539723
+  },
+  "60762": {
+    "BestCompanion": "60631",
+    "DTW_similarity": 5709.097374075803
+  },
+  "60763": {
+    "BestCompanion": "60654",
+    "DTW_similarity": 7333.34975330541
+  },
+  "60769": {
+    "BestCompanion": "60708",
+    "DTW_similarity": 5368.069612660559
+  },
+  "60772": {
+    "BestCompanion": "60616",
+    "DTW_similarity": 7646.983485029597
+  },
+  "60773": {
+    "BestCompanion": "60769",
+    "DTW_similarity": 5389.3286869347485
+  },
+  "60775": {
+    "BestCompanion": "60832",
+    "DTW_similarity": 6384.358088682866
+  },
+  "60782": {
+    "BestCompanion": "60654",
+    "DTW_similarity": 7808.0646812758
+  },
+  "60785": {
+    "BestCompanion": "61094",
+    "DTW_similarity": 8459.805368156345
+  },
+  "60788": {
+    "BestCompanion": "60616",
+    "DTW_similarity": 7548.79248205752
+  },
+  "60799": {
+    "BestCompanion": "60635",
+    "DTW_similarity": 8465.944817763497
+  },
+  "60812": {
+    "BestCompanion": "60895",
+    "DTW_similarity": 6685.683074170056
+  },
+  "60829": {
+    "BestCompanion": "60631",
+    "DTW_similarity": 9214.86880371803
+  },
+  "60832": {
+    "BestCompanion": "60775",
+    "DTW_similarity": 6384.358088682866
+  },
+  "60833": {
+    "BestCompanion": "60832",
+    "DTW_similarity": 7695.181919265507
+  },
+  "60870": {
+    "BestCompanion": "60708",
+    "DTW_similarity": 8243.737841032947
+  },
+  "60885": {
+    "BestCompanion": "60616",
+    "DTW_similarity": 8382.03246838867
+  },
+  "60895": {
+    "BestCompanion": "60639",
+    "DTW_similarity": 5716.255255833178
+  },
+  "60896": {
+    "BestCompanion": "60587",
+    "DTW_similarity": 7134.187424754732
+  },
+  "60899": {
+    "BestCompanion": "60707",
+    "DTW_similarity": 6833.723129940468
+  },
+  "61019": {
+    "BestCompanion": "60899",
+    "DTW_similarity": 8128.284047645975
+  },
+  "61053": {
+    "BestCompanion": "60707",
+    "DTW_similarity": 7107.891481529431
+  },
+  "61094": {
+    "BestCompanion": "60578",
+    "DTW_similarity": 2932.768549782108
+  },
+  "61406": {
+    "BestCompanion": "60707",
+    "DTW_similarity": 7032.358138658976
+  },
+  "60615": {
+    "BestCompanion": "60578",
+    "DTW_similarity": 5432.961842981553
+  },
+  "40552": {
+    "BestCompanion": "49315",
+    "DTW_similarity": 20.358316453587037
+  },
+  "60578": {
+    "BestCompanion": "60822",
+    "DTW_similarity": 0.0
+  },
+  "49315": {
+    "BestCompanion": "40552",
+    "DTW_similarity": 20.358316453587037
+  },
+  "60822": {
+    "BestCompanion": "60578",
+    "DTW_similarity": 0.0
+  }
+}
