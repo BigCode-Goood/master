@@ -69,9 +69,6 @@ for item in json_data:
             for progress in temp["daily_progress"]:
                 array_progress1.append(progress["completion"])
             break
-    if item["user_id"]=="40552":
-        print(array_progress)
-        print(array_progress1)
     time1 = range(0, len(array_progress))
     time2 = range(0, len(array_progress1))
     plt.plot(time1, array_progress, label='原学生')
