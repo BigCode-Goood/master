@@ -1,5 +1,6 @@
 import json
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 def dtw_distance(ts_a, ts_b, d=lambda x, y: abs(x - y), mww=10000):
@@ -58,3 +59,24 @@ with open('D:/大二下/数据科学基础/master/JSON/personal_progress_data.js
         result_dic[item1["user_id"]] = {"BestCompanion": companion_id, "DTW_similarity": similarity}
 with open('D:/大二下/数据科学基础/master/JSON/DTWsimilarity.json', 'a', encoding='utf8') as fp2:
     json.dump(result_dic, fp2, ensure_ascii=False)
+for item in json_data:
+    array_progress = []
+    for progress in item["daily_progress"]:
+        array_progress.append(progress["completion"])
+    array_progress1 = []
+    for temp in json_data:
+        if temp["user_id"] == result_dic[item["user_id"]]["BestCompanion"]:
+            for progress in temp["daily_progress"]:
+                array_progress1.append(progress["completion"])
+            break
+    if item["user_id"]=="40552":
+        print(array_progress)
+        print(array_progress1)
+    time1 = range(0, len(array_progress))
+    time2 = range(0, len(array_progress1))
+    plt.plot(time1, array_progress, label='原学生')
+    plt.plot(time2, array_progress1, label='匹配学生')
+    plt.xlabel("period", fontsize=12)
+    plt.ylabel("completion", fontsize=12)
+    plt.tick_params(axis='both', labelsize=10)
+    plt.savefig('D:/大二下/数据科学基础/master/pics/DTW匹配图/' + item['user_id'] + '.png')
