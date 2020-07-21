@@ -33,6 +33,7 @@ def cosine_similarity(x, y, norm=False):
 
 
 if __name__ == '__main__':
+
     f = open('D:/bigcode/master/JSON/余弦相似度匹配.json', encoding='utf-8')
     res = f.read()
     cp = json.loads(res)
@@ -69,13 +70,8 @@ if __name__ == '__main__':
 
         plt.title("user: " + user + "  cp: " + cp[user]["best_similar_cp"] + "  similarity=" + str(
             cp[user]['b_s_similarity'])[0:6], fontsize=12)
-        plt.savefig('D:/bigcode/master/pics/余弦相似度匹配图/' + user+ '.png')  # 保存图片
+     #   plt.savefig('D:/bigcode/master/pics/余弦相似度-相似匹配图/' + user+ '.png')  # 保存图片
         plt.show()
-
-
-
-
-
 
     # 获得趋势分组+每日得分json
     #
@@ -108,107 +104,162 @@ if __name__ == '__main__':
 
 
 
-
-
-
-
     # 获得匹配cp的json
 
-    # for trend in trend_data:
-    #     # print("trend",trend)
-    #     if len(trend_data[trend]) < 2:
-    #         undo1.update(trend_data[trend])
-    #         undo2.update(trend_data[trend])
-    #     else:
-    #         lst = trend_data[trend]
-    #         #  print("lst",lst)
-    #         for user in lst:
-    #             # print("user",user)
-    #             max_sim = 0
-    #             min_sim = 1
-    #             best_cp = 0
-    #             best_diff_cp = 0
-    #             for ano_user in lst:
-    #                 # print("another",ano_user)
-    #                 if user == ano_user: continue
-    #                 progress1 = trend_data[trend][user]
-    #                 progress2 = trend_data[trend][ano_user]
-    #                 # print(progress1)
-    #                 while len(progress1) < len(progress2):
-    #                     progress1.append(0)
-    #                 while len(progress2) < len(progress1):
-    #                     progress2.append(0)
-    #                 sim = cosine_similarity(progress1, progress2)
-    #                 if sim > max_sim:
-    #                     max_sim = sim
-    #                     best_cp = ano_user
-    #                 if sim < min_sim:
-    #                     min_sim = sim
-    #                     best_diff_cp = ano_user
-    #             if max_sim < 0.6:
-    #                 undo1.update({user: trend_data[trend][user]})
-    #             if min_sim > 0.3:
-    #                 undo2.update({user: trend_data[trend][user]})
-    #
-    #             match[user] = {
-    #                 "best_similar_cp": best_cp,
-    #                 "b_s_similarity": max_sim,
-    #                 "best_different_cp": best_diff_cp,
-    #                 "b_d_similarity": min_sim
-    #             }
-    # #  print(undo)
-    # for user in undo1:
-    #     print("user", user)
-    #     max_sim = 0
-    #     best_cp = 0
-    #     for ano_user in undo1:
-    #         print("another", ano_user)
-    #         if user == ano_user: continue
-    #         progress1 = undo1[user]
-    #         progress2 = undo1[ano_user]
-    #         print(progress1)
-    #         while len(progress1) < len(progress2):
-    #             progress1.append(0)
-    #         while len(progress2) < len(progress1):
-    #             progress2.append(0)
-    #         sim = cosine_similarity(progress1, progress2)
-    #         if sim > max_sim:
-    #             max_sim = sim
-    #             best_cp = ano_user
-    #     # if max_sim < 0.6:
-    #     #     undo.append(user)
-    #     #     continue
-    #     if match.get(user) is None:
-    #         match[user] = {
-    #             "best_similar_cp": best_cp,
-    #             "b_s_similarity": max_sim,
-    #             "best_different_cp": None,
-    #             "b_d_similarity": None
-    #         }
-    #     else:
-    #         match[user]["best_similar_cp"] = best_cp
-    #         match[user]["b_s_similarity"] = max_sim
-    # for user in undo2:
-    #     print("user", user)
-    #     min_sim = 1
-    #     best_diff_cp = 0
-    #     for ano_user in undo2:
-    #         print("another", ano_user)
-    #         if user == ano_user: continue
-    #         progress1 = undo2[user]
-    #         progress2 = undo2[ano_user]
-    #         print(progress1)
-    #         while len(progress1) < len(progress2):
-    #             progress1.append(0)
-    #         while len(progress2) < len(progress1):
-    #             progress2.append(0)
-    #         sim = cosine_similarity(progress1, progress2)
-    #         if sim < min_sim:
-    #             min_sim = sim
-    #             best_diff_cp = ano_user
-    #     match[user]["best_different_cp"] = best_diff_cp
-    #     match[user]["b_d_similarity"] = min_sim
-    # print(match)
+    f = open('D:/bigcode/master/JSON/趋势分组+每日得分.json', encoding='utf-8')
+    res = f.read()
+    trend_data = json.loads(res)
+
+    f = open('D:/bigcode/master/JSON/个人均分.json', encoding='utf-8')
+    res = f.read()
+    user_average = json.loads(res)
+
+    undo1 = {}
+    undo2 = {}
+
+    match = {}
+
+    # 同trend找相似
+    for trend in trend_data:
+        # print("trend",trend)
+        if len(trend_data[trend]) < 2:
+            undo1.update(trend_data[trend])
+        else:
+            lst = trend_data[trend]
+            #  print("lst",lst)
+            for user in lst:
+                max_sim = 0
+                min_sim = 1
+                best_cp = 0
+                best_diff_cp = 0
+                # print("user",user)
+                for ano_user in lst:
+                    # print("another",ano_user)
+                    if user == ano_user: continue
+                    progress1 = trend_data[trend][user]
+                    progress2 = trend_data[trend][ano_user]
+                    # print(progress1)
+                    while len(progress1) < len(progress2):
+                        progress1.append(0)
+                    while len(progress2) < len(progress1):
+                        progress2.append(0)
+                    sim = cosine_similarity(progress1, progress2)
+                    if sim > max_sim and user_average[ano_user]>50:
+                        max_sim = sim
+                        best_cp = ano_user
+                if max_sim < 0.7:
+                    undo1.update({user: trend_data[trend][user]})
+                match[user] = {
+                    "best_similar_cp": best_cp,
+                    "b_s_similarity": max_sim,
+                    "best_different_cp":0,
+                    "b_d_similarity":1
+                }
+    #  print(undo)
+    for user in undo1:
+        print("user", user)
+        max_sim = 0
+        best_cp = 0
+        for ano_user in undo1:
+            print("another", ano_user)
+            if user == ano_user: continue
+            progress1 = undo1[user]
+            progress2 = undo1[ano_user]
+            print(progress1)
+            while len(progress1) < len(progress2):
+                progress1.append(0)
+            while len(progress2) < len(progress1):
+                progress2.append(0)
+            sim = cosine_similarity(progress1, progress2)
+            if sim > max_sim and user_average[ano_user]>50:
+                max_sim = sim
+                best_cp = ano_user
+        # if max_sim < 0.6:
+        #     undo.append(user)
+        #     continue
+        if match.get(user) is None:
+            match[user] = {
+                "best_similar_cp": best_cp,
+                "b_s_similarity": max_sim,
+                "best_different_cp": 0,
+                "b_d_similarity": 1
+            }
+        else:
+            if max_sim > match[user]["b_s_similarity"]:
+                match[user]["best_similar_cp"] = best_cp
+                match[user]["b_s_similarity"] = max_sim
+
+    # 相反trend找不同
+    opps = {
+        "上升": "下降",
+        "下降": "上升",
+        "上升-下降": "下降-上升",
+        "下降-上升": "上升-下降",
+        "波动": "波动"
+    }
+    for trend1 in trend_data:
+        trend2 = opps[trend1]
+        if len(trend_data[trend2]) <= 5:
+            undo2.update(trend_data[trend1])
+        else:
+            lst1 = trend_data[trend1]
+            lst2 = trend_data[trend2]
+            #  print("lst",lst)
+            for user in lst1:
+                max_sim = 0
+                min_sim = 1
+                best_cp = 0
+                best_diff_cp = 0
+                # print("user",user)
+                for ano_user in lst2:
+                    # print("another",ano_user)
+                    progress1 = trend_data[trend1][user]
+                    progress2 = trend_data[trend2][ano_user]
+                    # print(progress1)
+                    length = max(len(progress1), len(progress2))
+                    while len(progress1) < length:
+                        progress1.append(0)
+                    while len(progress2) < length:
+                        progress2.append(0)
+                    sim = cosine_similarity(progress1, progress2)
+                    if sim < min_sim and user_average[ano_user]>50:
+                        min_sim = sim
+                        best_diff_cp = ano_user
+                print("min:", min_sim)
+                if min_sim > 0.2:
+                    undo2.update({user: trend_data[trend1][user]})
+                match[user].update({
+                    "best_different_cp": best_diff_cp,
+                    "b_d_similarity": min_sim
+                })
+    for user in undo2:
+        print("user", user)
+        min_sim = 1
+        best_diff_cp = 0
+        for ano_user in undo2:
+            print("another", ano_user)
+            if user == ano_user: continue
+            progress1 = undo2[user]
+            progress2 = undo2[ano_user]
+            length = max(len(progress1), len(progress2))
+            while len(progress1) < length:
+                progress1.append(0)
+            while len(progress2) < length:
+                progress2.append(0)
+            sim = cosine_similarity(progress1, progress2)
+            if sim < min_sim and user_average[ano_user]>50:
+                min_sim = sim
+                best_diff_cp = ano_user
+
+            if match.get(user) is None:
+                match[user] = {
+                    "best_different_cp": best_diff_cp,
+                    "b_d_similarity": min_sim,
+                }
+            else:
+                if min_sim < match[user]["b_d_similarity"]:
+                    match[user]["best_different_cp"] = best_diff_cp
+                    match[user]["b_d_similarity"] = min_sim
+    print(match)
     # with open('D:/bigcode/master/JSON/余弦相似度匹配.json', 'a', encoding='utf8') as fp1:
     #     json.dump(match, fp1, ensure_ascii=False)
-    #
