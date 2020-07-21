@@ -37,14 +37,14 @@ def func2(x, a, b, c):
     return a * np.power(x, b) + c
 
 
-# 对数函数
+# 对数函数 x
 def func3(x, a, b, c):
     return a * np.log(x, b) + c
 
 
-# S型函数 ?
-def func4(x, a, b, c):
-    return 1 / (a + b * np.power(np.e, -x)) + c
+# S型函数 x
+def func4(x, a, b, c,d):
+    return d / (a + b * np.power(np.e, -x)) + c
 
 
 # sin
@@ -83,15 +83,29 @@ if __name__ == '__main__':
     }
 
     # 用于拟合的函数
-    func_list = [func1, func3, func5, func6, func7]
+    func_list = [func1,func5, func6, func7]
+    type_list = ["高斯函数", "正弦函数", "上升指数函数", "下降指数函数", "反比例函数", "一次增函数", "一次减函数", "U型二次函数",
+                 "n型二次函数"]
+
+    trend_type= {
+        "高斯函数":"上升-下降-上升",
+        "正弦函数":"波动",
+        "上升指数函数":"上升",
+        "下降指数函数":"下降",
+        "反比例函数":"下降",
+        "一次增函数":"上升",
+        "一次减函数":"下降",
+        "U型二次函数":"下降-上升-下降",
+        "n型二次函数":"上升-下降-上升"
+    }
+
+    f = open('personal_progress_data.json', encoding='utf-8')
+    res = f.read()
+    user_data = json.loads(res)
+
+
 
     for user_id in range(46):  # 输入要查看的userId
-
-        type_list = ["高斯函数", "对数函数", "正弦函数", "上升指数函数", "下降指数函数", "反比例函数", "一次增函数", "一次减函数", "U型二次函数", "n型二次函数"]
-
-        f = open('personal_progress_data.json', encoding='utf-8')
-        res = f.read()
-        user_data = json.loads(res)
 
         # 选择拟合函数
         min_error_val = None
@@ -99,7 +113,7 @@ if __name__ == '__main__':
         y_fit_val = []
         x_fit_val = []
         fit_dataC = []
-        fit_popt=[]
+        fit_popt = []
 
         # 拟合曲线类型
         # 三次函数形状问题？找拐点
@@ -163,26 +177,26 @@ if __name__ == '__main__':
                     # 判断是否为最佳拟合
                     if min_error_val is None or er_val < min_error_val:
                         if type == 0:  # 高斯函数期望要求
-                            if popt[1] <= 2 or popt[1] >= len(x):
+                            if popt[1] <= len(x)*0.25 or popt[1] >= len(x)*0.8:
                                 type += 1
                                 continue
-                        if type == 2:  # sin周期要求
+                        if type == 1:  # sin周期要求
                             T = np.abs(2 * np.pi / popt[1])
-                            if len(x) <= 1.5 * T:
+                            if len(x) <= 2.5 * T:
                                 type += 1
                                 continue
                         min_error_val = er_val
                         fit_type = type
-                        if type == 3:  # 指数函数趋势判断
+                        if type == 2:  # 指数函数趋势判断
                             if popt[1] < 1: fit_type += 1
                         y_fit_val = yvals
                         x_fit_val = x
                         fit_dataC = dataC
-                        fit_popt=popt
+                        fit_popt = popt
                         fit_period_length = set_period_length
                 except:
                     pass
-                if type == 3:
+                if type == 2:
                     type += 2
                 else:
                     type += 1
@@ -199,14 +213,14 @@ if __name__ == '__main__':
                         a = res["系数"][0]
                         b = res["系数"][1]
                         T = -b / (2 * a)  # 求出拐点，若拐点不在图像显示区间内则抛弃
-                        if T <= 2 or len(x) * 0.9 <= T:
+                        if T <= 2 or len(x) * 0.8 <= T:
                             type += 2
                             continue
                     min_error_val = er_val
                     y_fit_val = yvals
                     x_fit_val = x
                     fit_dataC = dataC
-                    fit_popt=res["系数"]
+                    fit_popt = res["系数"]
                     fit_period_length = set_period_length
                     if res["系数"][0] > 0:
                         fit_type = type
@@ -230,13 +244,17 @@ if __name__ == '__main__':
         plt.xlabel("period", fontsize=12)
         plt.ylabel("completion", fontsize=12)
         plt.tick_params(axis='both', labelsize=10)
-    #    plt.savefig('D:/bigcode/master/pics/最匹配拟合图/' + user['user_id'] + '.png')  # 保存图片
+        plt.savefig('D:/bigcode/master/pics/最匹配拟合图/' + user['user_id'] + '.png')  # 保存图片
         plt.show()
 
-        dic[user['user_id']]={
-            "拟合类型":fit_type,
-            "拟合函数":type_list[fit_type],
-            "相关系数R":1 - min_error_val
+        dic[user['user_id']] = {
+            "拟合类型": fit_type,
+            "拟合函数": type_list[fit_type],
+            "趋势":trend_type[ type_list[fit_type]],
+            "相关系数R": 1 - min_error_val
         }
-    # with open('D:/bigcode/master/JSON/得分趋势拟合信息.json', 'a', encoding='utf8') as fp1:
-    #     json.dump(dic, fp1, ensure_ascii=False)
+        if 1-min_error_val<0.65:
+            dic[user['user_id']]["趋势"]="波动"
+
+    with open('D:/bigcode/master/JSON/得分趋势拟合信息.json', 'a', encoding='utf8') as fp1:
+        json.dump(dic, fp1, ensure_ascii=False)
