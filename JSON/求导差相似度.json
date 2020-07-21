@@ -1,0 +1,5976 @@
+[
+  {
+    "userid": "48117",
+    "companions": [
+      {
+        "companion_id": "60752",
+        "similarity": 0.7775210199244604
+      },
+      {
+        "companion_id": "60635",
+        "similarity": 0.9121185318659271
+      },
+      {
+        "companion_id": "60619",
+        "similarity": 0.9636384366763007
+      },
+      {
+        "companion_id": "60676",
+        "similarity": 1.0137856152877542
+      },
+      {
+        "companion_id": "60581",
+        "similarity": 1.0865659226365108
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 1.2375298739441802
+      },
+      {
+        "companion_id": "60773",
+        "similarity": 1.3374736102660707
+      },
+      {
+        "companion_id": "60788",
+        "similarity": 1.5258168188576477
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.53100625765146
+      },
+      {
+        "companion_id": "60671",
+        "similarity": 3.66178979591698
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 3.8521558064706882
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 5.04307272169366
+      }
+    ]
+  },
+  {
+    "userid": "49405",
+    "companions": [
+      {
+        "companion_id": "60775",
+        "similarity": 0.39302144226441094
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.40486115006703294
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.4746819196245866
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.5001708038351131
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.5042246859944608
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.5195381873687326
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 0.5370957326928927
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 0.5428568859944608
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.5438898445550645
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.6102606074362763
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 0.63656814173712
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 0.694237302148176
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.7659670030278746
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 0.7781226252860649
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.8154024344365187
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 0.9432674986975561
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.124183438115342
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.1266975013024436
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.2504174986975563
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.2968103512035338
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.3987206539283554
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.602565979359008
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.6492441419892099
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.7892196732766574
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.8845455788064949
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.9132449961023876
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 1.9796260236947631
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.0422641071467624
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.971546192331256
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.9317329663299874
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.866041066401229
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.492431056113881
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 7.823798342547201
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.717738392597601
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 2682.965811867446
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.894803498413
+      }
+    ]
+  },
+  {
+    "userid": "60581",
+    "companions": [
+      {
+        "companion_id": "60619",
+        "similarity": 0.17107790264320274
+      },
+      {
+        "companion_id": "60676",
+        "similarity": 0.2463037635804602
+      },
+      {
+        "companion_id": "60752",
+        "similarity": 0.5545210472705118
+      },
+      {
+        "companion_id": "60635",
+        "similarity": 0.6783248844861723
+      },
+      {
+        "companion_id": "60773",
+        "similarity": 0.9332458170653826
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.9952937635804604
+      },
+      {
+        "companion_id": "60788",
+        "similarity": 1.0315273930209474
+      },
+      {
+        "companion_id": "48117",
+        "similarity": 1.0865659226365108
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.0869404670314786
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.8315005590677003
+      },
+      {
+        "companion_id": "60671",
+        "similarity": 3.2226650919246786
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.9435512995892616
+      }
+    ]
+  },
+  {
+    "userid": "60587",
+    "companions": [
+      {
+        "companion_id": "49405",
+        "similarity": 0.63656814173712
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.8043453286211953
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 0.8305074811679513
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 0.8614399789473686
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.8630555368421051
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.8958060526315791
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.9511830000000001
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.9901452789473684
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.0286235315789474
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 1.0651028964520641
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 1.0845119210526315
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 1.0873507894736842
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 1.1685967210526316
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.2060620756539482
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.254356705263158
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.3247718681977787
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.326960421907207
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.4721799281966077
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 1.549646072684121
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.5632156782833944
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.618319924432684
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.6237965015218492
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 1.6895928947368417
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.6960907842105264
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.777634298208928
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.8298389368421055
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.0127399803633623
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 2.092706140686766
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 3.2254839473684207
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 4.113504984210525
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.869889198275819
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.698688562860181
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 8.478727500000002
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.733601569064273
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12634.576474314345
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.799345479965
+      }
+    ]
+  },
+  {
+    "userid": "60604",
+    "companions": [
+      {
+        "companion_id": "60654",
+        "similarity": 0.7966395473684209
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.9070320000000001
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 1.0916785263157895
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.0924133563399674
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 1.1472022105263158
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.1742926842105263
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.1805116842105263
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 1.197219894736842
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 1.2049077631578948
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.2258994210526315
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 1.264794377509547
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 1.2932984631578948
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 1.2968103512035338
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 1.305704852631579
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.319875204150742
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.355282112072822
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 1.456525265532034
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 1.4882912913214545
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.6142800000000002
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.6239080152587082
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.7436825125957938
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 1.7564684210526316
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.8298389368421055
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.8702075191402485
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.9456421131960997
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.995756640686766
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.000868645305423
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 2.238427299062039
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.252290961716632
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 2.873199957894737
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 6.521025000000002
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.8289477080299905
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.712846664360844
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.659249942723994
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12635.099775814346
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.942785579962
+      }
+    ]
+  },
+  {
+    "userid": "60606",
+    "companions": [
+      {
+        "companion_id": "60654",
+        "similarity": 0.13320933157894738
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.17518245354479292
+      },
+      {
+        "companion_id": "60773",
+        "similarity": 0.18943349344949884
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.2767180000000001
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.30517069999999996
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 0.3426373157894737
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.36738220000000005
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.39646499999999996
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.40486115006703294
+      },
+      {
+        "companion_id": "60635",
+        "similarity": 0.45798999999999984
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 0.47087968506438893
+      },
+      {
+        "companion_id": "60752",
+        "similarity": 0.5082880873091411
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 0.5444899999999999
+      },
+      {
+        "companion_id": "60788",
+        "similarity": 0.5465230351854355
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.6308673991995438
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.6598693071101099
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 0.7140530040503505
+      },
+      {
+        "companion_id": "60676",
+        "similarity": 0.7489899999999998
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.7997842736842106
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 0.8958060526315791
+      },
+      {
+        "companion_id": "60619",
+        "similarity": 0.9057300869639736
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 0.9773366315789473
+      },
+      {
+        "companion_id": "60581",
+        "similarity": 0.9952937635804604
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.197219894736842
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.1988907718123856
+      },
+      {
+        "companion_id": "48117",
+        "similarity": 1.2375298739441802
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.26616
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.360089379753331
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.3826303862983482
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.4332910454999213
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.441485282015627
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.4726556950551413
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.539801640686766
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.071917455632936
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.638091021052632
+      },
+      {
+        "companion_id": "60671",
+        "similarity": 2.848604406406893
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.5169269526315787
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 7.140270000000001
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.750533604965442
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.693203626934519
+      }
+    ]
+  },
+  {
+    "userid": "60616",
+    "companions": [
+      {
+        "companion_id": "60899",
+        "similarity": 1.4596694473684213
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 2.054146344987916
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 2.155782839171226
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 2.4799244454529394
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 2.6210601646961726
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 2.7216673578947375
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 2.7683036065973816
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 2.873199957894737
+      },
+      {
+        "companion_id": "60788",
+        "similarity": 3.034477921583667
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 3.049402631578947
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 3.0943063631578944
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 3.3063939070513397
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 3.329034210526315
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 3.346884210526315
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 3.39803027368421
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 3.407187094736842
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 3.4249042534605594
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 3.4452262052631584
+      },
+      {
+        "companion_id": "60773",
+        "similarity": 3.4815186005874588
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 3.5169269526315787
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 3.5570339509805686
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 3.5674050578947365
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 3.5727555683155323
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 3.59354640127705
+      },
+      {
+        "companion_id": "60671",
+        "similarity": 3.6190197594270637
+      },
+      {
+        "companion_id": "60635",
+        "similarity": 3.6994195894736834
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 3.726089589473683
+      },
+      {
+        "companion_id": "60676",
+        "similarity": 3.776359589473685
+      },
+      {
+        "companion_id": "60752",
+        "similarity": 3.8488704416727018
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 3.889067042105263
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 3.930570244546369
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 3.9317329663299874
+      },
+      {
+        "companion_id": "60581",
+        "similarity": 3.9435512995892616
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 4.039257667998345
+      },
+      {
+        "companion_id": "60619",
+        "similarity": 4.045709383213682
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 4.113504984210525
+      },
+      {
+        "companion_id": "48117",
+        "similarity": 5.04307272169366
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 5.360325469620506
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.996168321136044
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 13.964313567931644
+      }
+    ]
+  },
+  {
+    "userid": "60619",
+    "companions": [
+      {
+        "companion_id": "60581",
+        "similarity": 0.17107790264320274
+      },
+      {
+        "companion_id": "60676",
+        "similarity": 0.27803546258024914
+      },
+      {
+        "companion_id": "60752",
+        "similarity": 0.4649573706540254
+      },
+      {
+        "companion_id": "60635",
+        "similarity": 0.6356753018462624
+      },
+      {
+        "companion_id": "60773",
+        "similarity": 0.8436821404488963
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.9057300869639736
+      },
+      {
+        "companion_id": "48117",
+        "similarity": 0.9636384366763007
+      },
+      {
+        "companion_id": "60788",
+        "similarity": 1.0209848747244856
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.08434846893932
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.9351254538200733
+      },
+      {
+        "companion_id": "60671",
+        "similarity": 3.1939907388891293
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 4.045709383213682
+      }
+    ]
+  },
+  {
+    "userid": "60631",
+    "companions": [
+      {
+        "companion_id": "60708",
+        "similarity": 0.46815255789473686
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.4705523157894739
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.6101465842105263
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.6610760105263157
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.6620408631578949
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 0.721948
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.7352751648581018
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.7914668
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.7997842736842106
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.8154024344365187
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.851406241866653
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.8934761279697871
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 0.9070320000000001
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 0.9593492243396771
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.0178485736842107
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 1.037254904215351
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.129275852631579
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.215094640686766
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.2866846210526315
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.3552042790966723
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.362646587657139
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.4925102365205185
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.588590972982316
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.6895928947368417
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.7168381671934756
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 2.0655403086925275
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.1561437578947364
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.2030770797025223
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.276886313220554
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.049402631578947
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 6.119473000000001
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.649859182654782
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.779951278649655
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.67122183746083
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12634.192743814345
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.07364397996
+      }
+    ]
+  },
+  {
+    "userid": "60634",
+    "companions": [
+      {
+        "companion_id": "60639",
+        "similarity": 1.1097970333949292
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 1.2411570058026535
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 1.2961421078465134
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.319875204150742
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 1.3325177845641931
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 1.340310074965683
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 1.3585415842517055
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 1.3676446482248268
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 1.3853436189625525
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.4312228424120745
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 1.441485282015627
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.4438626974628306
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 1.4537801621728457
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 1.4661042156354118
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.5299903301703508
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.5582039186909413
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.5595957043185162
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.5609732683238762
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 1.588590972982316
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 1.6222538914717184
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.6237965015218492
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 1.7892196732766574
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.811316304099297
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.8583674370372545
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.8885350427674659
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.964218611141447
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 2.035116506179161
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 2.054146344987916
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.4403253473577733
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.771154241871528
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 5.586557135120371
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.68438861973203
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.826202800151606
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.948038286421617
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12634.318354529914
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.87107466139
+      }
+    ]
+  },
+  {
+    "userid": "60635",
+    "companions": [
+      {
+        "companion_id": "60752",
+        "similarity": 0.17323128086545386
+      },
+      {
+        "companion_id": "60676",
+        "similarity": 0.3846999999999998
+      },
+      {
+        "companion_id": "60773",
+        "similarity": 0.451436944958993
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.45798999999999984
+      },
+      {
+        "companion_id": "60788",
+        "similarity": 0.631482300874511
+      },
+      {
+        "companion_id": "60619",
+        "similarity": 0.6356753018462624
+      },
+      {
+        "companion_id": "60581",
+        "similarity": 0.6783248844861723
+      },
+      {
+        "companion_id": "48117",
+        "similarity": 0.9121185318659271
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.038510820296909
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.716271052631579
+      },
+      {
+        "companion_id": "60671",
+        "similarity": 2.954724856987066
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.6994195894736834
+      }
+    ]
+  },
+  {
+    "userid": "60639",
+    "companions": [
+      {
+        "companion_id": "61406",
+        "similarity": 0.6214509493770382
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.1097970333949292
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.1586435747921515
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 1.210922274167038
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 1.2855802924051614
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 1.3080692165954362
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 1.3301185323849098
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 1.3404405977271039
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.3477760065216295
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 1.360089379753331
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 1.3655770224341066
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 1.3713480218585943
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 1.3935869089839608
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 1.4287139560047664
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.492451655783292
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 1.4925102365205185
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.5632156782833944
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 1.602565979359008
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.6280652668921132
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.6523909704649544
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.711479471546248
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.7436825125957938
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.7626080422874963
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.768908675283993
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.7748446327846525
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 1.830154547300588
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 2.155782839171226
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 2.1802738687745022
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.487387199343488
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 3.2223979313187856
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 5.874435174337991
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.568317453989548
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.815425467911213
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 15.05331714772161
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12634.025132001043
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.838885951573
+      }
+    ]
+  },
+  {
+    "userid": "60654",
+    "companions": [
+      {
+        "companion_id": "61053",
+        "similarity": 0.08675900000000007
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.13320933157894738
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.19980252370359644
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.31098100000000006
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 0.3677569583749766
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 0.3753679999999999
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.38453387368421044
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.4705523157894739
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.47151400000000016
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.5001708038351131
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.5322255118089522
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.630984471769896
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 0.757027
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 0.7966395473684209
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 0.8564155668510389
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 0.8630555368421051
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 0.8771341522337419
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 0.9921180000000003
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.077847
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.1291189665373036
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.210922274167038
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.3325177845641931
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.3849969999999998
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.4677232264861229
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.4683830581170834
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.514664640686766
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 1.9982665031150737
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.176843608449206
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.5099090894736844
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.407187094736842
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.726299210893285
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 6.947913
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.527576029170852
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.687922995355573
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 2682.831232366143
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.978471979957
+      }
+    ]
+  },
+  {
+    "userid": "60665",
+    "companions": [
+      {
+        "companion_id": "60708",
+        "similarity": 0.5417857894736843
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 0.5527839158988977
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.6567807842105267
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.721948
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.7449126421052632
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.7796621052631577
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.7807811473684213
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 0.8929473558953249
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.9741928698702574
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.9773366315789473
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.9921180000000003
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.0321267990444298
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 1.0896185804696124
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 1.1266975013024436
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.2832181842105264
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.3477760065216295
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.347817662550914
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.3663132567333782
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.4438626974628306
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.4532308955537236
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.5591614999999999
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.6142800000000002
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.6186248273525052
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.6960907842105264
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.8315961227930573
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.848755
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.371104946158035
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.3983249263157895
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.658802250038463
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.0943063631578944
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 5.5059855
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.541056813446184
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.849399499702287
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.67261446903978
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12633.485495814344
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.209213579965
+      }
+    ]
+  },
+  {
+    "userid": "60671",
+    "companions": [
+      {
+        "companion_id": "60788",
+        "similarity": 2.797951854822947
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 2.848604406406893
+      },
+      {
+        "companion_id": "60773",
+        "similarity": 2.9432603695857926
+      },
+      {
+        "companion_id": "60635",
+        "similarity": 2.954724856987066
+      },
+      {
+        "companion_id": "60752",
+        "similarity": 3.0002442866169075
+      },
+      {
+        "companion_id": "60676",
+        "similarity": 3.1086048569870646
+      },
+      {
+        "companion_id": "60619",
+        "similarity": 3.1939907388891293
+      },
+      {
+        "companion_id": "60581",
+        "similarity": 3.2226650919246786
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.6190197594270637
+      },
+      {
+        "companion_id": "48117",
+        "similarity": 3.66178979591698
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 3.9466723803092094
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 4.365649482929199
+      }
+    ]
+  },
+  {
+    "userid": "60676",
+    "companions": [
+      {
+        "companion_id": "60581",
+        "similarity": 0.2463037635804602
+      },
+      {
+        "companion_id": "60619",
+        "similarity": 0.27803546258024914
+      },
+      {
+        "companion_id": "60752",
+        "similarity": 0.32306019284285153
+      },
+      {
+        "companion_id": "60635",
+        "similarity": 0.3846999999999998
+      },
+      {
+        "companion_id": "60773",
+        "similarity": 0.6869420534849222
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.7489899999999998
+      },
+      {
+        "companion_id": "60788",
+        "similarity": 0.7739024961338845
+      },
+      {
+        "companion_id": "48117",
+        "similarity": 1.0137856152877542
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.0572536537750166
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.7285987421052633
+      },
+      {
+        "companion_id": "60671",
+        "similarity": 3.1086048569870646
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.776359589473685
+      }
+    ]
+  },
+  {
+    "userid": "60686",
+    "companions": [
+      {
+        "companion_id": "61406",
+        "similarity": 1.0745585131735527
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.1586435747921515
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 1.3552042790966723
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 1.3606292836289546
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 1.3823531922738765
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 1.3911751426624384
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 1.39878431928833
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 1.4332910454999213
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 1.4677232264861229
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 1.4871381450646495
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 1.4891488454999213
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.494359001270422
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 1.5125762788654522
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 1.535273536930161
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.5910109247338577
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.6186248273525052
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.6392170215025268
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.6491510522114967
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.7296029162946769
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.777634298208928
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.8435018494023254
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.8702075191402485
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 1.8845455788064949
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.969278808040358
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 2.027282667465439
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 2.035116506179161
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.3424186774554094
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.630822576313488
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 2.7683036065973816
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 3.0943658500748454
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 5.989211233257267
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.661124375557337
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.739503578882518
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.827418442382708
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12634.026886298918
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.008480435652
+      }
+    ]
+  },
+  {
+    "userid": "60707",
+    "companions": [
+      {
+        "companion_id": "60812",
+        "similarity": 0.017971389636189744
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.16361045263157886
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.2840072103209882
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.28694498947368424
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 0.300978947368421
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.32662518947368413
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.38453387368421044
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.39646499999999996
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.420579893248072
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 0.5303062532527383
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.5438898445550645
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.6598124775169056
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.6610760105263157
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 0.7796621052631577
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 0.8747801081906047
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 0.9511830000000001
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.1283549999999996
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.1433366406867664
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.1472022105263158
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.15985975517029
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.3404405977271039
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.449175
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.4871381450646495
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.5917069063881746
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.6222538914717184
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.756325
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.003812382062441
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.5481716084492065
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.8045804105263157
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.5674050578947365
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.8394410214196
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 6.884355000000002
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.43020934217346
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.697642047987154
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 2682.459904366143
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.032219579967
+      }
+    ]
+  },
+  {
+    "userid": "60708",
+    "companions": [
+      {
+        "companion_id": "60870",
+        "similarity": 0.10583600000000024
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.17492894736842104
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.26436899999999985
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.300978947368421
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.321895265532034
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.3426373157894737
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 0.36140152144901366
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.3753679999999999
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.3910785942261471
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.46815255789473686
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 0.5417857894736843
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.5428568859944608
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 0.5867462009416136
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.6277723760060836
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.005315
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.0845119210526315
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.1238909410965179
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.1392966406867662
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.1504452680627009
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.2049077631578948
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.2961421078465134
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.326135
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.3655770224341066
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.3911751426624384
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.633285
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.6355777738779338
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.1045858064014196
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.160974572684121
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.5164486210526316
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.329034210526315
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 6.499075000000002
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.615610669450494
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.789528447070708
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.685602890092417
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12633.965145814343
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.058443579957
+      }
+    ]
+  },
+  {
+    "userid": "60715",
+    "companions": [
+      {
+        "companion_id": "60616",
+        "similarity": 2.7216673578947375
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 4.435350900000001
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 5.201848025173204
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 5.5059855
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 5.536290783748124
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 5.586557135120371
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 5.859162613523965
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 5.874435174337991
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 5.989211233257267
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 5.990205855051643
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 6.119473000000001
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 6.267742950557407
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 6.431999000000002
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 6.499075000000002
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 6.521025000000002
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 6.744752000000001
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 6.860404000000001
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 6.879929243236099
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 6.884355000000002
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 6.947913
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 7.122827111266815
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 7.140270000000001
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 7.160721238841198
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 7.247227470669101
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 7.26822701099465
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 7.823798342547201
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 8.012710000000002
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 8.333530000000001
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 8.478727500000002
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 8.640680000000001
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 8.891833451154522
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 9.52204550271573
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 10.88268876399852
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 15.381451261479814
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 32.84110067553779
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30263.317042128754
+      }
+    ]
+  },
+  {
+    "userid": "60737",
+    "companions": [
+      {
+        "companion_id": "60769",
+        "similarity": 0.30715
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 0.6279699999999997
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 1.0448484263233744
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.1424710125806516
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.2258994210526315
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 1.2504174986975563
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.254356705263158
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 1.2660759999999998
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 1.26616
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 1.2866846210526315
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 1.2948321129121572
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 1.3849969999999998
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.4973838702045152
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 1.562678
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 1.621731
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 1.633285
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.7296029162946769
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 1.7370396850643886
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 1.756325
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.7748446327846525
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.848755
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 1.9064741198124655
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.910974241441209
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.964218611141447
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 2.021899648596175
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.102589596514515
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 2.5617293681977786
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.7662607421052634
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 2.8996616406867655
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.889067042105263
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.875220582654782
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.665922980150318
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 8.640680000000001
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.737915184853748
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12635.598430814345
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.680954579962
+      }
+    ]
+  },
+  {
+    "userid": "60752",
+    "companions": [
+      {
+        "companion_id": "60635",
+        "similarity": 0.17323128086545386
+      },
+      {
+        "companion_id": "60676",
+        "similarity": 0.32306019284285153
+      },
+      {
+        "companion_id": "60619",
+        "similarity": 0.4649573706540254
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.5082880873091411
+      },
+      {
+        "companion_id": "60773",
+        "similarity": 0.5345306228696765
+      },
+      {
+        "companion_id": "60581",
+        "similarity": 0.5545210472705118
+      },
+      {
+        "companion_id": "60788",
+        "similarity": 0.7402543637305248
+      },
+      {
+        "companion_id": "48117",
+        "similarity": 0.7775210199244604
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.033976620259786
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.8320062136441977
+      },
+      {
+        "companion_id": "60671",
+        "similarity": 3.0002442866169075
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.8488704416727018
+      }
+    ]
+  },
+  {
+    "userid": "60760",
+    "companions": [
+      {
+        "companion_id": "60812",
+        "similarity": 0.2375627536163873
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.2840072103209882
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 0.321895265532034
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.3702437344300888
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.4453783071101098
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.5795194660228049
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 0.6070687677167884
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.630984471769896
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.6598693071101099
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.7358793125783843
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.7659670030278746
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.77193330711011
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.851406241866653
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 0.8836801689168698
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 0.9741928698702574
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.0651028964520641
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.1885364090608137
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.2043593071101095
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.2334987484102617
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.3676446482248268
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.3823531922738765
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.4287139560047664
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.456525265532034
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.5204155962796642
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.5993241198124655
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.9064741198124655
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.1297138286430366
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.482869838216155
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.582682967972593
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.3063939070513397
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 6.267742950557407
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.690939080333665
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.849617702522211
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.655320312038583
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12633.643250548814
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.143236895616
+      }
+    ]
+  },
+  {
+    "userid": "60762",
+    "companions": [
+      {
+        "companion_id": "60895",
+        "similarity": 1.2141442786649987
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 1.9796260236947631
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.9890627898361157
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 1.9982665031150737
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 2.000868645305423
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 2.003812382062441
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 2.0127399803633623
+      },
+      {
+        "companion_id": "60752",
+        "similarity": 2.033976620259786
+      },
+      {
+        "companion_id": "60635",
+        "similarity": 2.038510820296909
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 2.038510820296909
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 2.0501815632062006
+      },
+      {
+        "companion_id": "60676",
+        "similarity": 2.0572536537750166
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 2.071917455632936
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 2.078678939423233
+      },
+      {
+        "companion_id": "60619",
+        "similarity": 2.08434846893932
+      },
+      {
+        "companion_id": "60581",
+        "similarity": 2.0869404670314786
+      },
+      {
+        "companion_id": "60773",
+        "similarity": 2.0985528277132484
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 2.102589596514515
+      },
+      {
+        "companion_id": "60788",
+        "similarity": 2.1033198971102185
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 2.1045858064014196
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 2.119858203001356
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 2.1236261345803036
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 2.1297138286430366
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 2.172631239843462
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 2.276886313220554
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 2.2892021336611466
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 2.371104946158035
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 2.4244750112537274
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 2.5139315561974698
+      },
+      {
+        "companion_id": "48117",
+        "similarity": 2.53100625765146
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 2.771154241871528
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 3.0943658500748454
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 3.128129025232275
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 3.2223979313187856
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 3.845742567213341
+      },
+      {
+        "companion_id": "60671",
+        "similarity": 4.365649482929199
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 5.360325469620506
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.883216557194769
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 8.891833451154522
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.25529391817633
+      }
+    ]
+  },
+  {
+    "userid": "60763",
+    "companions": [
+      {
+        "companion_id": "60707",
+        "similarity": 0.16361045263157886
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 0.17492894736842104
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.20028947368421052
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 0.24768088029185834
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.24909061952184594
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.2767180000000001
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.31098100000000006
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.332792
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.3702437344300888
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.5042246859944608
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 0.5466440699450315
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.6858777781959224
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 0.7807811473684213
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.7914668
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 0.8680579999999998
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 0.9901452789473684
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.1658035065344863
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.2036836406867657
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.255528
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.2813099086925275
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.305704852631579
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.3585415842517055
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.3606292836289546
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.3713480218585943
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.5513712856014248
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.562678
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.119858203001356
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.157017572684121
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.6409699578947365
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.4452262052631584
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.676208918709344
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 6.744752000000001
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.783884878649654
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.691327837460836
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12633.969102814346
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.03348017996
+      }
+    ]
+  },
+  {
+    "userid": "60769",
+    "companions": [
+      {
+        "companion_id": "60737",
+        "similarity": 0.30715
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 0.3208200000000001
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.8836338159899922
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.9432674986975561
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.9589260000000002
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.9876821129121571
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.0286235315789474
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 1.077847
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 1.083653895731365
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 1.129275852631579
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.1805116842105263
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 1.255528
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 1.3145810000000002
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 1.326135
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.3745238702045155
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 1.4298896850643887
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 1.449175
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.5591614999999999
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 1.5993241198124655
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.6280652668921132
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.6392170215025268
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.7147496485961753
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.7654755716238477
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.811316304099297
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 2.2545793681977786
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 2.5925116406867654
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.83782989301266
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.665922980150318
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 8.333530000000001
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.707200184853743
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12635.291280814345
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.742384579957
+      }
+    ]
+  },
+  {
+    "userid": "60772",
+    "companions": [
+      {
+        "companion_id": "60715",
+        "similarity": 5.990205855051643
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 6.541056813446184
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 6.547731135927252
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 6.551153090671986
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 6.568317453989548
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 6.615610669450494
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 6.641492076604078
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 6.649859182654782
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 6.661124375557337
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 6.676208918709344
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 6.68212771406529
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 6.68438861973203
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 6.690939080333665
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 6.719468263802476
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 6.726299210893285
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 6.727151551008608
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 6.768577882451993
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 6.805747893012658
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 6.8289477080299905
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 6.83782989301266
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 6.8394410214196
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 6.862634013157724
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 6.866041066401229
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 6.869889198275819
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 6.875220582654782
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 6.899497897045592
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 7.035613020742813
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 7.0549435455032095
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 9.061843293123385
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 15.453293330094118
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12633.919308613145
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.014216524316
+      }
+    ]
+  },
+  {
+    "userid": "60773",
+    "companions": [
+      {
+        "companion_id": "60606",
+        "similarity": 0.18943349344949884
+      },
+      {
+        "companion_id": "60635",
+        "similarity": 0.451436944958993
+      },
+      {
+        "companion_id": "60752",
+        "similarity": 0.5345306228696765
+      },
+      {
+        "companion_id": "60788",
+        "similarity": 0.5354136429348636
+      },
+      {
+        "companion_id": "60676",
+        "similarity": 0.6869420534849222
+      },
+      {
+        "companion_id": "60619",
+        "similarity": 0.8436821404488963
+      },
+      {
+        "companion_id": "60581",
+        "similarity": 0.9332458170653826
+      },
+      {
+        "companion_id": "48117",
+        "similarity": 1.3374736102660707
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.0985528277132484
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.576824000373839
+      },
+      {
+        "companion_id": "60671",
+        "similarity": 2.9432603695857926
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.4815186005874588
+      }
+    ]
+  },
+  {
+    "userid": "60775",
+    "companions": [
+      {
+        "companion_id": "60606",
+        "similarity": 0.17518245354479292
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.19980252370359644
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.24909061952184594
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 0.3910785942261471
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.39302144226441094
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.420579893248072
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 0.4422075721522317
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.4567101063183068
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.4829956742868922
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.5795194660228049
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 0.6080430478112853
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 0.6248398410873051
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.6359822191203932
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 0.8043453286211953
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.8934761279697871
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 0.9876821129121571
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.0896185804696124
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.191685086521759
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.264794377509547
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.2948321129121572
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.3116758769462735
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.3935869089839608
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.39878431928833
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.4661042156354118
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.5280267986115064
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.5639165339348384
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 1.8431635354025175
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.0501815632062006
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.700182883248229
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.5727555683155323
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.727151551008608
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 7.247227470669101
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.748303887440883
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.695845488249097
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12634.282956851628
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.951809686427
+      }
+    ]
+  },
+  {
+    "userid": "60782",
+    "companions": [
+      {
+        "companion_id": "60707",
+        "similarity": 0.5303062532527383
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.7781226252860649
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.8564155668510389
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 0.9992495203861933
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 1.033629028400669
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 1.1238909410965179
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 1.2334987484102617
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 1.2813099086925275
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 1.3116758769462735
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.3247718681977787
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 1.3826303862983482
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 1.4108029039064882
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 1.51458465101704
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.5925291600377733
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.7626080422874963
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.77942285056148
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.8108623765039273
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.8315961227930573
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.8319061514278172
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.8583674370372545
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.9337593681977787
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 2.027282667465439
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 2.0655403086925275
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 2.238427299062039
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 2.2545793681977786
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.2892021336611466
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 2.5617293681977786
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.7972740264898897
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 3.3348866637790535
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.930570244546369
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.899497897045592
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 7.26822701099465
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.828385954802198
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.715919390861055
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12633.328846360539
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.047320699763
+      }
+    ]
+  },
+  {
+    "userid": "60785",
+    "companions": [
+      {
+        "companion_id": "60715",
+        "similarity": 32.84110067553779
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 2681.3165677254565
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 2682.459904366143
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 2682.831232366143
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 2682.965811867446
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 2684.5689225223114
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 12633.328846360539
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 12633.475867799087
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 12633.485495814344
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 12633.643250548814
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 12633.85832229573
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 12633.859309814343
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 12633.919308613145
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 12633.965145814343
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 12633.969102814346
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 12634.025132001043
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 12634.026886298918
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 12634.063832170132
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 12634.192743814345
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 12634.229514814346
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 12634.282956851628
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 12634.318354529914
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 12634.489939847208
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 12634.548696451358
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 12634.576474314345
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 12634.970460814346
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 12635.004682842886
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 12635.099775814346
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 12635.291280814345
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 12635.598430814345
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 12636.126120387029
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30585.307035984675
+      }
+    ]
+  },
+  {
+    "userid": "60788",
+    "companions": [
+      {
+        "companion_id": "60773",
+        "similarity": 0.5354136429348636
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.5465230351854355
+      },
+      {
+        "companion_id": "60635",
+        "similarity": 0.631482300874511
+      },
+      {
+        "companion_id": "60752",
+        "similarity": 0.7402543637305248
+      },
+      {
+        "companion_id": "60676",
+        "similarity": 0.7739024961338845
+      },
+      {
+        "companion_id": "60619",
+        "similarity": 1.0209848747244856
+      },
+      {
+        "companion_id": "60581",
+        "similarity": 1.0315273930209474
+      },
+      {
+        "companion_id": "48117",
+        "similarity": 1.5258168188576477
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.0483302573705786
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.1033198971102185
+      },
+      {
+        "companion_id": "60671",
+        "similarity": 2.797951854822947
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.034477921583667
+      }
+    ]
+  },
+  {
+    "userid": "60799",
+    "companions": [
+      {
+        "companion_id": "60737",
+        "similarity": 1.0448484263233744
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.083653895731365
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.2106084498552652
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.549646072684121
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 1.8431635354025175
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.894035248492493
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 1.9004481500384631
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 2.0183302274798622
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 2.0422641071467624
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 2.157017572684121
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 2.160974572684121
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 2.176843608449206
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 2.2030770797025223
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 2.252290961716632
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 2.266810572684121
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 2.2677980913002727
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 2.3424186774554094
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 2.4403253473577733
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 2.482869838216155
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 2.487387199343488
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 2.495542205786996
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 2.5481716084492065
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 2.6502525879428296
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 2.658802250038463
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 2.7972740264898897
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 3.691508249135972
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 7.035613020742813
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.535602859875046
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 10.88268876399852
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.994254500820835
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12636.126120387029
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.3762552529
+      }
+    ]
+  },
+  {
+    "userid": "60812",
+    "companions": [
+      {
+        "companion_id": "60707",
+        "similarity": 0.017971389636189744
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.2375627536163873
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.24768088029185834
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 0.36140152144901366
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.3677569583749766
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.3951418470516126
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.4422075721522317
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.47087968506438893
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.4991311252378642
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.5370957326928927
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.7292440016580055
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 0.7982771230271476
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 0.8305074811679513
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 0.8929473558953249
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.033629028400669
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 1.037254904215351
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.1090696850643886
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.1559671017631699
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.2148595037361987
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.2855802924051614
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.4298896850643887
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.4537801621728457
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.4789887658581584
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.4882912913214545
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.5125762788654522
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.7370396850643886
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.078678939423233
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.2677980913002727
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.7891445647261857
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.5570339509805686
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.719468263802476
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 6.879929243236099
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.790367927421789
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.696377328388532
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12633.85832229573
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.031740249397
+      }
+    ]
+  },
+  {
+    "userid": "60829",
+    "companions": [
+      {
+        "companion_id": "60769",
+        "similarity": 0.3208200000000001
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.5444899999999999
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.5612682631578947
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.6248398410873051
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 0.6279699999999997
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.694237302148176
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.757027
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.799121252631579
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.8303323234001674
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 0.8614399789473686
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.8680579999999998
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 1.005315
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 1.0178485736842107
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 1.1090696850643886
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 1.1283549999999996
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.1742926842105263
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 1.2043593071101095
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 1.2106084498552652
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.248737104242743
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.2589415844359613
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.2832181842105264
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.492451655783292
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.5609732683238762
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.5692755401556122
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.5910109247338577
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.9337593681977787
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.038510820296909
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 2.271691640686766
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.716271052631579
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.726089589473683
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.805747893012658
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.677961052333865
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 8.012710000000002
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.69764204798715
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12634.970460814346
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.806548579956
+      }
+    ]
+  },
+  {
+    "userid": "60832",
+    "companions": [
+      {
+        "companion_id": "49405",
+        "similarity": 0.5195381873687326
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.5322255118089522
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 0.6277723760060836
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.6308673991995438
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.6359822191203932
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.6598124775169056
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.6858777781959224
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 0.7292440016580055
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.7352751648581018
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.7358793125783843
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.7686814653678015
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.7765039477570406
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 0.8303323234001674
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 0.8836338159899922
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.02355182019206
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.0924133563399674
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.1424710125806516
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.2060620756539482
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.347817662550914
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.3735408477501994
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.5595957043185162
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.5925291600377733
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.6211469658283062
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.768908675283993
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.8435018494023254
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 1.894035248492493
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 1.9890627898361157
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 2.045989355870075
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.511749133447527
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.59354640127705
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.768577882451993
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 7.160721238841198
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.710241304065908
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.747809946125845
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12634.489939847208
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.882192011086
+      }
+    ]
+  },
+  {
+    "userid": "60833",
+    "companions": [
+      {
+        "companion_id": "60763",
+        "similarity": 0.5466440699450315
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 0.5867462009416136
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.6070687677167884
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.6080430478112853
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.6904264386447216
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.7140530040503505
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 0.7982771230271476
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.8747801081906047
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.8771341522337419
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.8821070040503505
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.9593492243396771
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.02355182019206
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.0321267990444298
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 1.124183438115342
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.2589415844359613
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.2983932669495788
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.464502741961915
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.4721799281966077
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.494359001270422
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.5582039186909413
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.5972379389427123
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.6239080152587082
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.6523909704649544
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.7147496485961753
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.8319061514278172
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 2.021899648596175
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.1565650408319352
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.5139315561974698
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 2.6210601646961726
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.6502525879428296
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 5.201848025173204
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.862634013157724
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 8.113016007862678
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.37769313072053
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12633.475867799087
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.49908596735
+      }
+    ]
+  },
+  {
+    "userid": "60870",
+    "companions": [
+      {
+        "companion_id": "60708",
+        "similarity": 0.10583600000000024
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.20028947368421052
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.28694498947368424
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 0.3120050000000001
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.36738220000000005
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 0.3951418470516126
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.4453783071101098
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 0.47151400000000016
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.4829956742868922
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.6102606074362763
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 0.6567807842105267
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.6620408631578949
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 0.6904264386447216
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.7765039477570406
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 0.799121252631579
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.043150640686766
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.1685967210526316
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.2200527718123857
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.2932984631578948
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.3145810000000002
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.3301185323849098
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.340310074965683
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.4108029039064882
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.4323704148262102
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.4891488454999213
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.621731
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.172631239843462
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.266810572684121
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.5577098210526312
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.346884210526315
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 6.431999000000002
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.641492076604078
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.799270547070708
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.68652089009242
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12633.859309814343
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.07573477996
+      }
+    ]
+  },
+  {
+    "userid": "60885",
+    "companions": [
+      {
+        "companion_id": "60616",
+        "similarity": 13.964313567931644
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 14.25529391817633
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 14.37769313072053
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 14.39357145341111
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 14.588991205881888
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 14.621238742659603
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 14.655320312038583
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 14.659249942723994
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 14.67122183746083
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 14.67261446903978
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 14.67548311226158
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 14.685602890092417
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 14.68652089009242
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 14.687899311145049
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 14.687922995355573
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 14.691327837460836
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 14.693203626934519
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 14.695845488249097
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 14.696377328388532
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 14.69764204798715
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 14.697642047987154
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 14.707200184853743
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 14.715919390861055
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 14.717738392597601
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 14.733601569064273
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 14.737915184853748
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 14.747809946125845
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 14.827418442382708
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 14.877461205336378
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 14.948038286421617
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 14.994254500820835
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 15.05331714772161
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 15.381451261479814
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 15.453293330094118
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 2684.5689225223114
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30317.358792297007
+      }
+    ]
+  },
+  {
+    "userid": "60895",
+    "companions": [
+      {
+        "companion_id": "60654",
+        "similarity": 1.1291189665373036
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 1.1504452680627009
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 1.15985975517029
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 1.1658035065344863
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 1.1885364090608137
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 1.191685086521759
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 1.1988907718123856
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 1.2141442786649987
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 1.2148595037361987
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 1.215687771812386
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 1.2200527718123857
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.248737104242743
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.326960421907207
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.355282112072822
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 1.362646587657139
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.3663132567333782
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.3735408477501994
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.3745238702045155
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 1.3987206539283554
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.464502741961915
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.4973838702045152
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.5299903301703508
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.6073838221839032
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.77942285056148
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.8758530094182735
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.969278808040358
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.0183302274798622
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 2.1802738687745022
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 3.067773036418081
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 4.039257667998345
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.551153090671986
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 7.122827111266815
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.653452635191343
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.39357145341111
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12634.548696451358
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.06781458336
+      }
+    ]
+  },
+  {
+    "userid": "60896",
+    "companions": [
+      {
+        "companion_id": "60665",
+        "similarity": 0.5527839158988977
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.8836801689168698
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 0.9992495203861933
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 1.043150640686766
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 1.1392966406867662
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 1.1433366406867664
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 1.1559671017631699
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 1.2036836406867657
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 1.215094640686766
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.2983932669495788
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 1.427905640686766
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 1.514664640686766
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 1.539801640686766
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 1.5639165339348384
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.6073838221839032
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 1.6211469658283062
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.6491510522114967
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 1.6492441419892099
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.711479471546248
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.8552313893063535
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.8885350427674659
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.995756640686766
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 2.092706140686766
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 2.271691640686766
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.4244750112537274
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 2.5925116406867654
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 2.8996616406867655
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.944913642118963
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.4249042534605594
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 3.691508249135972
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 5.536290783748124
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 7.0549435455032095
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.418645654090622
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.67548311226158
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 2681.3165677254565
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30314.294964025605
+      }
+    ]
+  },
+  {
+    "userid": "60899",
+    "companions": [
+      {
+        "companion_id": "60634",
+        "similarity": 1.2411570058026535
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 1.4596694473684213
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.7564684210526316
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.830154547300588
+      },
+      {
+        "companion_id": "60788",
+        "similarity": 2.0483302573705786
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 2.1561437578947364
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 2.1565650408319352
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 2.2555724304550364
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 2.3983249263157895
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 2.5099090894736844
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 2.511749133447527
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 2.5164486210526316
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 2.5179988052631583
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 2.5577098210526312
+      },
+      {
+        "companion_id": "60773",
+        "similarity": 2.576824000373839
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 2.582682967972593
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 2.630822576313488
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 2.638091021052632
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 2.6409699578947365
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 2.700182883248229
+      },
+      {
+        "companion_id": "60635",
+        "similarity": 2.716271052631579
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 2.716271052631579
+      },
+      {
+        "companion_id": "60676",
+        "similarity": 2.7285987421052633
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 2.7662607421052634
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 2.7891445647261857
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 2.8045804105263157
+      },
+      {
+        "companion_id": "60581",
+        "similarity": 2.8315005590677003
+      },
+      {
+        "companion_id": "60752",
+        "similarity": 2.8320062136441977
+      },
+      {
+        "companion_id": "60619",
+        "similarity": 2.9351254538200733
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 2.944913642118963
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 2.971546192331256
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 3.067773036418081
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 3.2254839473684207
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 3.3348866637790535
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 3.845742567213341
+      },
+      {
+        "companion_id": "48117",
+        "similarity": 3.8521558064706882
+      },
+      {
+        "companion_id": "60671",
+        "similarity": 3.9466723803092094
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 4.435350900000001
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 8.479965344170711
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.588991205881888
+      }
+    ]
+  },
+  {
+    "userid": "61019",
+    "companions": [
+      {
+        "companion_id": "60896",
+        "similarity": 7.418645654090622
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 7.43020934217346
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 7.492431056113881
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 7.527576029170852
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 7.535602859875046
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 7.653452635191343
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 7.665922980150318
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 7.665922980150318
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 7.677961052333865
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 7.698688562860181
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 7.710241304065908
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 7.712846664360844
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 7.739503578882518
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 7.748303887440883
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 7.750533604965442
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 7.760986494439129
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 7.779951278649655
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 7.783884878649654
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 7.789528447070708
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 7.790367927421789
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 7.799270547070708
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 7.815425467911213
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 7.826202800151606
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 7.828385954802198
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 7.849399499702287
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 7.849617702522211
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 7.876288069629119
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 7.883216557194769
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 7.996168321136044
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 8.113016007862678
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 8.479965344170711
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 9.061843293123385
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 9.52204550271573
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.621238742659603
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12635.004682842886
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30310.78565444143
+      }
+    ]
+  },
+  {
+    "userid": "61053",
+    "companions": [
+      {
+        "companion_id": "60654",
+        "similarity": 0.08675900000000007
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 0.26436899999999985
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 0.30517069999999996
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 0.3120050000000001
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 0.32662518947368413
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 0.332792
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 0.4567101063183068
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 0.4746819196245866
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 0.4991311252378642
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 0.5612682631578947
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 0.6101465842105263
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 0.7449126421052632
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 0.7686814653678015
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 0.77193330711011
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 0.8821070040503505
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 0.9589260000000002
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.0873507894736842
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.0916785263157895
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.215687771812386
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.2660759999999998
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 1.3080692165954362
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.3853436189625525
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.427905640686766
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 1.4375777832472632
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.51458465101704
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.535273536930161
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 1.9004481500384631
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 2.1236261345803036
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.5179988052631583
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 3.39803027368421
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.68212771406529
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 6.860404000000001
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.760986494439129
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.687899311145049
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12634.229514814346
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.995873779968
+      }
+    ]
+  },
+  {
+    "userid": "61094",
+    "companions": [
+      {
+        "companion_id": "60715",
+        "similarity": 30263.317042128754
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 30310.78565444143
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 30313.014216524316
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 30313.3762552529
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 30313.680954579962
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 30313.742384579957
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 30313.799345479965
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 30313.806548579956
+      },
+      {
+        "companion_id": "60639",
+        "similarity": 30313.838885951573
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 30313.87107466139
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 30313.882192011086
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 30313.894803498413
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 30313.942785579962
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 30313.951809686427
+      },
+      {
+        "companion_id": "61406",
+        "similarity": 30313.963197385798
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 30313.978471979957
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 30313.995873779968
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 30314.008480435652
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 30314.031740249397
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 30314.032219579967
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 30314.03348017996
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 30314.047320699763
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 30314.058443579957
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 30314.06781458336
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 30314.07364397996
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 30314.07573477996
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 30314.143236895616
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 30314.209213579965
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 30314.294964025605
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 30314.49908596735
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 30317.358792297007
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 30585.307035984675
+      }
+    ]
+  },
+  {
+    "userid": "61406",
+    "companions": [
+      {
+        "companion_id": "60639",
+        "similarity": 0.6214509493770382
+      },
+      {
+        "companion_id": "60686",
+        "similarity": 1.0745585131735527
+      },
+      {
+        "companion_id": "60634",
+        "similarity": 1.4312228424120745
+      },
+      {
+        "companion_id": "60870",
+        "similarity": 1.4323704148262102
+      },
+      {
+        "companion_id": "61053",
+        "similarity": 1.4375777832472632
+      },
+      {
+        "companion_id": "60665",
+        "similarity": 1.4532308955537236
+      },
+      {
+        "companion_id": "60654",
+        "similarity": 1.4683830581170834
+      },
+      {
+        "companion_id": "60606",
+        "similarity": 1.4726556950551413
+      },
+      {
+        "companion_id": "60812",
+        "similarity": 1.4789887658581584
+      },
+      {
+        "companion_id": "60760",
+        "similarity": 1.5204155962796642
+      },
+      {
+        "companion_id": "60775",
+        "similarity": 1.5280267986115064
+      },
+      {
+        "companion_id": "60763",
+        "similarity": 1.5513712856014248
+      },
+      {
+        "companion_id": "60829",
+        "similarity": 1.5692755401556122
+      },
+      {
+        "companion_id": "60707",
+        "similarity": 1.5917069063881746
+      },
+      {
+        "companion_id": "60833",
+        "similarity": 1.5972379389427123
+      },
+      {
+        "companion_id": "60587",
+        "similarity": 1.618319924432684
+      },
+      {
+        "companion_id": "60708",
+        "similarity": 1.6355777738779338
+      },
+      {
+        "companion_id": "60631",
+        "similarity": 1.7168381671934756
+      },
+      {
+        "companion_id": "60769",
+        "similarity": 1.7654755716238477
+      },
+      {
+        "companion_id": "60782",
+        "similarity": 1.8108623765039273
+      },
+      {
+        "companion_id": "60896",
+        "similarity": 1.8552313893063535
+      },
+      {
+        "companion_id": "60895",
+        "similarity": 1.8758530094182735
+      },
+      {
+        "companion_id": "60737",
+        "similarity": 1.910974241441209
+      },
+      {
+        "companion_id": "49405",
+        "similarity": 1.9132449961023876
+      },
+      {
+        "companion_id": "60604",
+        "similarity": 1.9456421131960997
+      },
+      {
+        "companion_id": "60832",
+        "similarity": 2.045989355870075
+      },
+      {
+        "companion_id": "60899",
+        "similarity": 2.2555724304550364
+      },
+      {
+        "companion_id": "60616",
+        "similarity": 2.4799244454529394
+      },
+      {
+        "companion_id": "60799",
+        "similarity": 2.495542205786996
+      },
+      {
+        "companion_id": "60762",
+        "similarity": 3.128129025232275
+      },
+      {
+        "companion_id": "60715",
+        "similarity": 5.859162613523965
+      },
+      {
+        "companion_id": "60772",
+        "similarity": 6.547731135927252
+      },
+      {
+        "companion_id": "61019",
+        "similarity": 7.876288069629119
+      },
+      {
+        "companion_id": "60885",
+        "similarity": 14.877461205336378
+      },
+      {
+        "companion_id": "60785",
+        "similarity": 12634.063832170132
+      },
+      {
+        "companion_id": "61094",
+        "similarity": 30313.963197385798
+      }
+    ]
+  }
+]

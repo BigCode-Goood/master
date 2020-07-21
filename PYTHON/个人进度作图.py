@@ -236,6 +236,7 @@ if __name__ == '__main__':
         print("R：", 1 - min_error_val)
         print("拟合函数：", type_list[fit_type])
         print("天数：", fit_period_length)
+        print("coef:",fit_popt)
 
         plt.plot(x_fit_val, fit_dataC)
         plt.plot(x_fit_val, y_fit_val, 'r', label='polyfit values')
@@ -245,16 +246,20 @@ if __name__ == '__main__':
         plt.ylabel("completion", fontsize=12)
         plt.tick_params(axis='both', labelsize=10)
      #   plt.savefig('D:/bigcode/master/pics/最匹配拟合图/' + user['user_id'] + '.png')  # 保存图片
-     #   plt.show()
-
+        plt.show()
+        coef=[]
+        for i in fit_popt:
+            coef.append(i)
         dic[user['user_id']] = {
             "拟合类型": fit_type,
             "拟合函数": type_list[fit_type],
             "趋势":trend_type[ type_list[fit_type]],
-            "相关系数R": 1 - min_error_val
+            "相关系数R": 1 - min_error_val,
+            "coefficient":coef,
+            "end":len(period)
         }
         if 1-min_error_val<0.65:
             dic[user['user_id']]["趋势"]="波动"
-
-    with open('D:/bigcode/master/JSON/得分趋势拟合信息.json', 'a', encoding='utf8') as fp1:
-        json.dump(dic, fp1, ensure_ascii=False)
+    print(dic)
+    # with open('得分趋势拟合信息(plus coef).json', 'a', encoding='utf8') as fp1:
+    #     json.dump(dic, fp1, ensure_ascii=False)
