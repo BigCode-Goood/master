@@ -88,15 +88,15 @@ if __name__ == '__main__':
                  "n型二次函数"]
 
     trend_type= {
-        "高斯函数":"上升-下降-上升",
+        "高斯函数":"上升-下降",
         "正弦函数":"波动",
         "上升指数函数":"上升",
         "下降指数函数":"下降",
         "反比例函数":"下降",
         "一次增函数":"上升",
         "一次减函数":"下降",
-        "U型二次函数":"下降-上升-下降",
-        "n型二次函数":"上升-下降-上升"
+        "U型二次函数":"下降-上升",
+        "n型二次函数":"上升-下降"
     }
 
     f = open('personal_progress_data.json', encoding='utf-8')
@@ -244,8 +244,8 @@ if __name__ == '__main__':
         plt.xlabel("period", fontsize=12)
         plt.ylabel("completion", fontsize=12)
         plt.tick_params(axis='both', labelsize=10)
-        plt.savefig('D:/bigcode/master/pics/最匹配拟合图/' + user['user_id'] + '.png')  # 保存图片
-        plt.show()
+     #   plt.savefig('D:/bigcode/master/pics/最匹配拟合图/' + user['user_id'] + '.png')  # 保存图片
+     #   plt.show()
 
         dic[user['user_id']] = {
             "拟合类型": fit_type,
