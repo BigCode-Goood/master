@@ -37,43 +37,38 @@ def cutZero(array):
     return array[i:j + 1]
 
 
-result_dic = {}
-with open('D:/大二下/数据科学基础/master/JSON/personal_progress_data.json', 'r', encoding='utf8') as fp:
-    json_data = json.load(fp)
-    for item1 in json_data:  # 遍历比较
-        similarity = float('inf')
-        array1 = []
-        for progress1 in item1["daily_progress"]:
-            array1.append(progress1["completion"])
-        array1 = cutZero(array1)
-        for item2 in json_data:
-            if item1 != item2:
-                array2 = []
-                for progress2 in item2["daily_progress"]:
-                    array2.append(progress2["completion"])
-                array2 = cutZero(array2)  # 去掉头尾的0
-                simi = dtw_distance(array1, array2)
-                if simi < similarity:
-                    companion_id = item2["user_id"]
-                    similarity = simi
-        result_dic[item1["user_id"]] = {"BestCompanion": companion_id, "DTW_similarity": similarity}
-with open('D:/大二下/数据科学基础/master/JSON/DTWsimilarity.json', 'a', encoding='utf8') as fp2:
-    json.dump(result_dic, fp2, ensure_ascii=False)
-for item in json_data:
-    array_progress = []
-    for progress in item["daily_progress"]:
-        array_progress.append(progress["completion"])
-    array_progress1 = []
-    for temp in json_data:
-        if temp["user_id"] == result_dic[item["user_id"]]["BestCompanion"]:
-            for progress in temp["daily_progress"]:
-                array_progress1.append(progress["completion"])
-            break
-    time1 = range(0, len(array_progress))
-    time2 = range(0, len(array_progress1))
-    plt.plot(time1, array_progress, label='原学生')
-    plt.plot(time2, array_progress1, label='匹配学生')
-    plt.xlabel("period", fontsize=12)
-    plt.ylabel("completion", fontsize=12)
-    plt.tick_params(axis='both', labelsize=10)
-    plt.savefig('D:/大二下/数据科学基础/master/pics/DTW匹配图/' + item['user_id'] + '.png')
+if __name__ == '__main__':
+    result_dic = {}
+    with open('D:/大二下/数据科学基础/master/JSON/daily_progress.json', 'r', encoding='utf8') as fp:
+        json_data = json.load(fp)
+        for item1 in json_data:  # 遍历比较
+            array1 = cutZero(json_data[item1])
+            result_dic[item1] = []
+            for item2 in json_data:
+                if item1 != item2:
+                    array2 = cutZero(json_data[item2])  # 去掉头尾的0
+                    similarity = dtw_distance(array1, array2)
+                    companion_id = item2
+                    result_dic[item1].append({"companion_id": companion_id, "similarity": similarity})
+            list.sort(result_dic[item1],key=lambda x:x["similarity"])
+    with open('D:/大二下/数据科学基础/master/JSON/DTWsimilarity.json', 'a', encoding='utf8') as fp2:
+        json.dump(result_dic, fp2, ensure_ascii=False)
+# 画图
+# for item in json_data:
+#     array_progress = []
+#     for progress in item["daily_progress"]:
+#         array_progress.append(progress["completion"])
+#     array_progress1 = []
+#     for temp in json_data:
+#         if temp["user_id"] == result_dic[item["user_id"]]["BestCompanion"]:
+#             for progress in temp["daily_progress"]:
+#                 array_progress1.append(progress["completion"])
+#             break
+#     time1 = range(0, len(array_progress))
+#     time2 = range(0, len(array_progress1))
+#     plt.plot(time1, array_progress, label='原学生')
+#     plt.plot(time2, array_progress1, label='匹配学生')
+#     plt.xlabel("period", fontsize=12)
+#     plt.ylabel("completion", fontsize=12)
+#     plt.tick_params(axis='both', labelsize=10)
+#     plt.savefig('D:/大二下/数据科学基础/master/pics/DTW匹配图/' + item['user_id'] + '.png')
