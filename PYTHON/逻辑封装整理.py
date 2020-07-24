@@ -149,11 +149,11 @@ class User:
 
         # 列表转存字典
         cp_list={}
+        res_list = [res1, res2, res3]
+        method_list = ["求导差匹配", "余弦相似度匹配", "DTW匹配"]
         for cp in res1+res2+res3:
             cp_list[cp["companion_id"]]=None
         for i in range(3):
-            res_list=[res1,res2,res3]
-            method_list=["求导差匹配","余弦相似度匹配","DTW匹配"]
             res=res_list[i]
             method=method_list[i]
             for cp in res:
