@@ -1,78 +1,95 @@
 import json
 import matplotlib.pyplot as plt
 
+# 直接在这里改自己的文件位置
+location = {
+    "zjy": "",
+    "wyq": "",
+    "fbj": "D:/bigcode/master/JSON/"
+}
+
+my_location = location["fbj"]
+
 
 # 数据解析器类
 # 初始化时读取需要的所有文件并将解析后的json字符串存入
 class DataPaser:
     code_length_data = []
-    personal_progress_data = {}
+    #    personal_progress_data = {}
+    daily_completion_data = {}
     fit_func_data = {}
-    couples = []
+    couples0 = {} # 求导差匹配
+    couples1={} # 余弦相似度匹配
+    couples2={} #DTW匹配
+    couples=[]
 
     def __init__(self):
-        f1 = open('code_length_2.0.json', encoding='utf-8')
+        f1 = open(my_location + 'code_length_2.0.json', encoding='utf-8')
         self.code_length_data = json.loads(f1.read())
-        f2 = open('personal_progress_data_pro000.json', encoding='utf-8')
+        f2 = open(my_location + 'personal_progress_data.json', encoding='utf-8')
         self.personal_progress_data = json.loads(f2.read())
-        f3 = open('得分趋势拟合信息(plus coef).json', encoding='utf-8')
+        f3 = open(my_location + '得分趋势拟合信息.json', encoding='utf-8')
         self.fit_func_data = json.loads(f3.read())
-        f4 = open('求导差相似度.json', encoding='utf-8')
-        self.couples = json.loads(f4.read())
+
+        f4_0 = open(my_location + '求导差相似度.json', encoding='utf-8')
+        self.couples0 = json.loads(f4_0.read())
+        f4_1 = open(my_location + '余弦相似度匹配.json', encoding='utf-8')
+        self.couples1 = json.loads(f4_1.read())
+        f4_2 = open(my_location + 'DTWsimilarity.json', encoding='utf-8')
+        self.couples2 = json.loads(f4_2.read())
+
+        f5 = open(my_location + 'daily_progress.json', encoding='utf-8')
+        self.daily_completion_data = json.loads(f5.read())
+
+        self.couples.append(self.couples0)
+        self.couples.append(self.couples1)
+        self.couples.append(self.couples2)
 
     # 根据user_id获取用户所有提交数据，由于当初存数据考虑不周，如今查询只能遍历QAQ
-    def getDetailedData(self, id):
-        for item in self.code_length_data:
-            if int(item["user_id"]) == id:
-                return item
+    # def getDetailedData(self, id):
+    #     for item in self.code_length_data:
+    #         if int(item["user_id"]) == id:
+    #             return item
 
     # 根据user_id获取用户每日完成度数据
     def getPersonalProgressData(self, id):
-        return self.personal_progress_data[str(id)]["daily_progress"]
+        return self.daily_completion_data[str(id)]
 
     def getFitFuncData(self, id):
         return self.fit_func_data[str(id)]
 
-    def getCouples(self, id):
-        for item in self.couples:
-            if int(item["userid"]) == id:
-                return item
+    def getCouples(self, id,match_func):
+        return self.couples[match_func][str(id)]["companions"]
 
 
 # 趋势对比图作图类
 # 预想中的方法：画单人趋势图√、画趋势对比图√、画雷达图
 class PicDrawer:
     pp_data = {}
+    dc_data = {}
 
-    def __init__(self):
-        f1 = open('personal_progress_data_pro000.json', encoding='utf-8')
+    def __init__(self, daily_completion_data):
+        f1 = open(my_location+'personal_progress_data.json', encoding='utf-8')
         self.pp_data = json.loads(f1.read())
         # f2读取画雷达图需要的json文件
+        self.dc_data = daily_completion_data
 
     # 单人趋势图
     def drawPersonalProgressPic(self, id):
-        completion = []
+        completion = self.dc_data[id]
         dp = self.pp_data[str(id)]["daily_progress"]
-        for item in dp:
-            completion.append(item["completion"])
         days = [i for i in range(1, len(completion) + 1)]
-        # days[0]=dp[0]["date"]
-        # days[len(completion)-1]=dp[len(completion)-1]["date"]
+        days[len(completion) - 1] = dp[len(completion) - 1]["date"]
         plt.plot(days, completion)
         plt.title("userId: " + str(id) + "  " + dp[0]["date"] + "~" + dp[len(completion) - 1]["date"], fontsize=15)
         plt.xlabel("days", fontsize=12)
         plt.ylabel("completion", fontsize=12)
         plt.show()
 
+    # cp趋势对比图
     def drawCpPic(self, id1, id2):
-        completion1 = []
-        completion2 = []
-        dp1 = self.pp_data[str(id1)]["daily_progress"]
-        dp2 = self.pp_data[str(id2)]["daily_progress"]
-        for item in dp1:
-            completion1.append(item["completion"])
-        for item in dp2:
-            completion2.append(item["completion"])
+        completion1 = self.dc_data[str(id1)]
+        completion2 = self.dc_data[str(id2)]
         days1 = [i for i in range(1, len(completion1) + 1)]
         days2 = [i for i in range(1, len(completion2) + 1)]
         plt.plot(days1, completion1)
@@ -99,10 +116,10 @@ class User:
     def __init__(self, id):
         self.id = int(id)
         self.dataPaser = DataPaser()
-        self.picDrawer = PicDrawer()
+        self.picDrawer = PicDrawer(self.dataPaser.daily_completion_data)
 
-    def getDetailedData(self):
-        return self.dataPaser.getDetailedData(self.id)
+    # def getDetailedData(self):
+    #     return self.dataPaser.getDetailedData(self.id)
 
     def getPersonalProgress(self):
         return self.dataPaser.getPersonalProgressData(self.id)
@@ -113,48 +130,84 @@ class User:
     def getFitFunc(self):
         return self.dataPaser.getFitFuncData(self.id)
 
-    # 获取用求导差匹配的相似度最高cp的前num位
-    def getBestSimilarCPs_DelDeriv(self, num):
-        res = self.dataPaser.getCouples(self.id)
-        if num > len(res["companions"]):
-            print("No enough targets!")
-        else:
-            return res["companions"][0: num: 1]
+    def getCpList(self, num, similar, draw):
+        # 求导差
+        cp_list1 = self.dataPaser.getCouples(self.id,0)
+        # 余弦相似度
+        cp_list2=self.dataPaser.getCouples(self.id,1)
+        # DTW
+        cp_list3=[]
 
-    def drawBestSimilarCPs_DelDeriv(self, num):
-        res = self.dataPaser.getCouples(self.id)
-        if num > len(res["companions"]):
-            print("No enough targets!")
+        if similar:
+            res1 = sorted(cp_list1, key=lambda x: x['similarity'], reverse=False)[0:num]
+            res2=sorted(cp_list2, key=lambda x: x['similarity'], reverse=True)[0:num]
+            res3=[]
         else:
-            cps = res["companions"][0: num: 1]
-            for item in cps:
-                self.picDrawer.drawCpPic(self.id, int(item["companion_id"]))
+            res1 = sorted(cp_list1, key=lambda x: x['similarity'], reverse=True)[0:num]
+            res2=sorted(cp_list2, key=lambda x: x['similarity'], reverse=False)[0:num]
+            res3=[]
 
-    # 获取用求导差匹配的相似度最低cp的前num位
-    def getBestDissimilarCPs_DelDeriv(self, num):
-        res = self.dataPaser.getCouples(self.id)
-        if num > len(res["companions"]):
-            print("No enough targets!")
-        else:
-            return sorted(res["companions"], key=lambda x: x['similarity'], reverse=True)[0: num: 1]
+        # 列表转存字典
+        cp_list={}
+        for cp in res1+res2+res3:
+            cp_list[cp["companion_id"]]=None
+        for i in range(3):
+            res_list=[res1,res2,res3]
+            method_list=["求导差匹配","余弦相似度匹配","DTW匹配"]
+            res=res_list[i]
+            method=method_list[i]
+            for cp in res:
+                if cp_list[cp["companion_id"]] is None:
+                    print(cp)
+                    cp_list[cp["companion_id"]]={
+                        "method":[method],
+                        "similarities":[cp['similarity']]
+                    }
+                else:
+                    cp_list[cp["companion_id"]]["method"].append(method)
+                    cp_list[cp["companion_id"]]["similarities"].append(cp['similarity'])
 
-    def drawBestDissimilarCPs_DelDeriv(self, num):
-        res = self.dataPaser.getCouples(self.id)
-        if num > len(res["companions"]):
-            print("No enough targets!")
-        else:
-            cps = sorted(res["companions"], key=lambda x: x['similarity'], reverse=True)[0: num: 1]
-            for item in cps:
-                self.picDrawer.drawCpPic(self.id, int(item["companion_id"]))
+        if draw:
+            for cp in cp_list:
+                self.picDrawer.drawCpPic(self.id, cp)
+
+        return cp_list
+    #
+    # # 获取用求导差匹配的相似度最高cp的前num位
+    # def getBestSimilarCPs_DelDeriv(self, num):
+    #     res = self.dataPaser.getCouples(self.id)
+    #     if num > len(res["companions"]):
+    #         print("No enough targets!")
+    #     else:
+    #         return res["companions"][0: num: 1]
+    #
+    # def drawBestSimilarCPs_DelDeriv(self, num):
+    #     res = self.dataPaser.getCouples(self.id)
+    #     if num > len(res["companions"]):
+    #         print("No enough targets!")
+    #     else:
+    #         cps = res["companions"][0: num: 1]
+    #         for item in cps:
+    #             self.picDrawer.drawCpPic(self.id, int(item["companion_id"]))
+    #
+    # # 获取用求导差匹配的相似度最低cp的前num位
+    # def getBestDissimilarCPs_DelDeriv(self, num):
+    #     res = self.dataPaser.getCouples(self.id)
+    #     if num > len(res["companions"]):
+    #         print("No enough targets!")
+    #     else:
+    #         return sorted(res["companions"], key=lambda x: x['similarity'], reverse=True)[0: num: 1]
+    #
+    # def drawBestDissimilarCPs_DelDeriv(self, num):
+    #     res = self.dataPaser.getCouples(self.id)
+    #     if num > len(res["companions"]):
+    #         print("No enough targets!")
+    #     else:
+    #         cps = sorted(res["companions"], key=lambda x: x['similarity'], reverse=True)[0: num: 1]
+    #         for item in cps:
+    #             self.picDrawer.drawCpPic(self.id, int(item["companion_id"]))
 
 
 if __name__ == '__main__':
     user = User(48117)
-    # print(user.getDetailedData())
-    # print(user.getPersonalProgress())
-    # print(user.getFitFunc())
-    # print(user.getBestSimilarCPs_DelDeriv(5))
-    # print(user.getBestDissimilarCPs_DelDeriv(2))
-    # user.drawPersonalProgressPic()
-    # user.drawBestSimilarCPs_DelDeriv(2)
-    user.drawBestDissimilarCPs_DelDeriv(3)
+    print(user.getCpList(5,True,True))
