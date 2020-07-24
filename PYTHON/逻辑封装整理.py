@@ -1,5 +1,6 @@
 import json
 import matplotlib.pyplot as plt
+import numpy as np
 
 # 直接在这里改自己的文件位置
 location = {
@@ -18,10 +19,11 @@ class DataPaser:
     #    personal_progress_data = {}
     daily_completion_data = {}
     fit_func_data = {}
-    couples0 = {} # 求导差匹配
-    couples1={} # 余弦相似度匹配
-    couples2={} #DTW匹配
-    couples=[]
+    user_average = {}
+    couples0 = {}  # 求导差匹配
+    couples1 = {}  # 余弦相似度匹配
+    couples2 = {}  # DTW匹配
+    couples = []
 
     def __init__(self):
         f1 = open(my_location + 'code_length_2.0.json', encoding='utf-8')
@@ -31,7 +33,7 @@ class DataPaser:
         f3 = open(my_location + '得分趋势拟合信息.json', encoding='utf-8')
         self.fit_func_data = json.loads(f3.read())
 
-        f4_0 = open(my_location + '求导差相似度.json', encoding='utf-8')
+        f4_0 = open(my_location + '求导差相似度2.0.json', encoding='utf-8')
         self.couples0 = json.loads(f4_0.read())
         f4_1 = open(my_location + '余弦相似度匹配.json', encoding='utf-8')
         self.couples1 = json.loads(f4_1.read())
@@ -40,6 +42,9 @@ class DataPaser:
 
         f5 = open(my_location + 'daily_progress.json', encoding='utf-8')
         self.daily_completion_data = json.loads(f5.read())
+
+        f6 = open(my_location + '个人均分.json', encoding='utf-8')
+        self.user_average = json.loads(f6.read())
 
         self.couples.append(self.couples0)
         self.couples.append(self.couples1)
@@ -58,7 +63,7 @@ class DataPaser:
     def getFitFuncData(self, id):
         return self.fit_func_data[str(id)]
 
-    def getCouples(self, id,match_func):
+    def getCouples(self, id, match_func):
         return self.couples[match_func][str(id)]["companions"]
 
 
@@ -69,7 +74,7 @@ class PicDrawer:
     dc_data = {}
 
     def __init__(self, daily_completion_data):
-        f1 = open(my_location+'personal_progress_data.json', encoding='utf-8')
+        f1 = open(my_location + 'personal_progress_data.json', encoding='utf-8')
         self.pp_data = json.loads(f1.read())
         # f2读取画雷达图需要的json文件
         self.dc_data = daily_completion_data
@@ -104,7 +109,7 @@ class PicDrawer:
 # 初始化必需参数：id
 # 初始化同时创建一个DataPaser类对象
 # 包含成员变量id、detailed_data、personal_progress、fit_func、dataPaser
-# 包含成员方法：获取所有提交信息、获取个人进度数据、获取进度趋势拟合信息、获取
+# 包含成员方法：获取所有提交信息、获取个人进度数据、获取进度趋势拟合信息、获取匹配cp、分差过大cp过滤
 class User:
     id = 0
     detailed_data = {}
@@ -130,38 +135,47 @@ class User:
     def getFitFunc(self):
         return self.dataPaser.getFitFuncData(self.id)
 
-    def getCpList(self, num, similar, draw):
+    def isMatch(self, id1, id2, lower, greater):
+        scores=self.dataPaser.user_average
+        s1=scores[str(id1)]
+        s2=scores[str(id2)]
+        return s1+lower<=s2<=s1+greater
+
+    def getCpList(self, num, similar, draw, lower, greater):
         # 求导差
-        cp_list1 = self.dataPaser.getCouples(self.id,0)
+        cp_list1 = self.dataPaser.getCouples(self.id, 0)
         # 余弦相似度
-        cp_list2=self.dataPaser.getCouples(self.id,1)
+        cp_list2 = self.dataPaser.getCouples(self.id, 1)
         # DTW
-        cp_list3=[]
+        cp_list3 = []
 
         if similar:
             res1 = sorted(cp_list1, key=lambda x: x['similarity'], reverse=False)[0:num]
-            res2=sorted(cp_list2, key=lambda x: x['similarity'], reverse=True)[0:num]
-            res3=[]
+            res2 = sorted(cp_list2, key=lambda x: x['similarity'], reverse=True)[0:num]
+            res3 = []
         else:
             res1 = sorted(cp_list1, key=lambda x: x['similarity'], reverse=True)[0:num]
-            res2=sorted(cp_list2, key=lambda x: x['similarity'], reverse=False)[0:num]
-            res3=[]
+            res2 = sorted(cp_list2, key=lambda x: x['similarity'], reverse=False)[0:num]
+            res3 = []
 
         # 列表转存字典
-        cp_list={}
+        cp_list = {}
         res_list = [res1, res2, res3]
         method_list = ["求导差匹配", "余弦相似度匹配", "DTW匹配"]
-        for cp in res1+res2+res3:
-            cp_list[cp["companion_id"]]=None
+        for cp in res1 + res2 + res3:
+            print(cp)
+            if self.isMatch(self.id, cp["companion_id"], lower, greater):
+                cp_list[cp["companion_id"]] = None
         for i in range(3):
-            res=res_list[i]
-            method=method_list[i]
+            res = res_list[i]
+            method = method_list[i]
             for cp in res:
+                if not self.isMatch(self.id, cp["companion_id"], lower, greater): continue
                 if cp_list[cp["companion_id"]] is None:
                     print(cp)
-                    cp_list[cp["companion_id"]]={
-                        "method":[method],
-                        "similarities":[cp['similarity']]
+                    cp_list[cp["companion_id"]] = {
+                        "method": [method],
+                        "similarities": [cp['similarity']]
                     }
                 else:
                     cp_list[cp["companion_id"]]["method"].append(method)
@@ -209,5 +223,9 @@ class User:
 
 
 if __name__ == '__main__':
-    user = User(48117)
-    print(user.getCpList(5,True,True))
+    user = User(61406)
+    score_range = (0, 10)  # 允许匹配cp的分数差距范围
+    # 参数：每种方法匹配人数，T-相似 F-相反，是否画图，cp分数范围：[本人分数+score_range[0],本人分数+score_range[1]]
+    cp_list = user.getCpList(5, True, False, score_range[0], score_range[1])
+    print(len(cp_list))
+    print(cp_list)
