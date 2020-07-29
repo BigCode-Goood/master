@@ -57,7 +57,7 @@ def func6(x, a, b, c):
     return a * b ** x + c
 
 
-# a/x
+# 反比例函数
 def func7(x, a, b, c):
     return a / np.power(x, b) + c
 
@@ -84,8 +84,8 @@ if __name__ == '__main__':
 
     # 用于拟合的函数
     func_list = [func1,func5, func6, func7]
-    type_list = ["高斯函数", "正弦函数", "上升指数函数", "下降指数函数", "反比例函数", "一次增函数", "一次减函数", "U型二次函数",
-                 "n型二次函数"]
+    type_list = ["高斯函数", "正弦函数", "上升指数函数", "下降指数函数", "反比例函数",
+                 "一次增函数", "一次减函数", "U型二次函数","n型二次函数"]
 
     trend_type= {
         "高斯函数":"上升-下降",
@@ -169,10 +169,8 @@ if __name__ == '__main__':
                 try:
                     popt, pcov = curve_fit(func, x, y)
                     cf = func
-                    # 获取popt里面是拟合系数
-                    # print(popt)
+                    # popt里面是拟合系数
                     yvals = func(x, *popt)  # 拟合y值
-                    # print('popt:', popt)
                     er_val = cal_error_val(y, yvals, len(x))
                     # 判断是否为最佳拟合
                     if min_error_val is None or er_val < min_error_val:
@@ -182,7 +180,7 @@ if __name__ == '__main__':
                                 continue
                         if type == 1:  # sin周期要求
                             T = np.abs(2 * np.pi / popt[1])
-                            if len(x) <= 2.5 * T:
+                            if len(x) <= 2 * T:
                                 type += 1
                                 continue
                         min_error_val = er_val
