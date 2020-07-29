@@ -9,7 +9,7 @@ location = {
     "fbj": "D:/bigcode/master/JSON/"
 }
 
-my_location = location["fbj"]
+my_location = location["zjy"]
 
 
 # 数据解析器类
@@ -23,6 +23,7 @@ class DataPaser:
     couples0 = {}  # 求导差匹配
     couples1 = {}  # 余弦相似度匹配
     couples2 = {}  # DTW匹配
+    couples3 = {}  # 雷达图匹配
     couples = []
 
     def __init__(self):
@@ -39,6 +40,8 @@ class DataPaser:
         self.couples1 = json.loads(f4_1.read())
         f4_2 = open(my_location + 'DTWsimilarity.json', encoding='utf-8')
         self.couples2 = json.loads(f4_2.read())
+        f4_3 = open(my_location + '雷达图匹配.json', encoding='utf-8')
+        self.couples3 = json.loads(f4_3.read())
 
         f5 = open(my_location + 'daily_progress.json', encoding='utf-8')
         self.daily_completion_data = json.loads(f5.read())
@@ -49,6 +52,7 @@ class DataPaser:
         self.couples.append(self.couples0)
         self.couples.append(self.couples1)
         self.couples.append(self.couples2)
+        self.couples.append(self.couples3)
 
     # 根据user_id获取用户所有提交数据，由于当初存数据考虑不周，如今查询只能遍历QAQ
     # def getDetailedData(self, id):
@@ -136,10 +140,10 @@ class User:
         return self.dataPaser.getFitFuncData(self.id)
 
     def isMatch(self, id1, id2, lower, greater):
-        scores=self.dataPaser.user_average
-        s1=scores[str(id1)]
-        s2=scores[str(id2)]
-        return s1+lower<=s2<=s1+greater
+        scores = self.dataPaser.user_average
+        s1 = scores[str(id1)]
+        s2 = scores[str(id2)]
+        return s1 + lower <= s2 <= s1 + greater
 
     def getCpList(self, num, similar, draw, lower, greater):
         # 求导差
@@ -148,6 +152,8 @@ class User:
         cp_list2 = self.dataPaser.getCouples(self.id, 1)
         # DTW
         cp_list3 = self.dataPaser.getCouples(self.id, 2)
+        # 雷达图
+        cp_list4 = self.dataPaser.getCouples(self.id, 3)
 
         if similar:
             res1 = sorted(cp_list1, key=lambda x: x['similarity'], reverse=False)[0:num]
@@ -158,6 +164,9 @@ class User:
             res2 = sorted(cp_list2, key=lambda x: x['similarity'], reverse=False)[0:num]
             res3 = []
 
+        length=int(len(cp_list4)/2)
+        res4 = cp_list4[0:length]
+        res5 = sorted(cp_list4, key=lambda x: x['similarity'], reverse=True)[0:length]
         # 列表转存字典
         cp_list = {}
         res_list = [res1, res2, res3]
@@ -173,9 +182,19 @@ class User:
                 if not self.isMatch(self.id, cp["companion_id"], lower, greater): continue
                 if cp_list[cp["companion_id"]] is None:
                     print(cp)
+                    str_type = ""
+                    for i in res4:
+                        if i["companion_id"]==cp["companion_id"]:
+                            str_type="相似"
+                            break
+                    for i in res5:
+                        if i["companion_id"]==cp["companion_id"]:
+                            str_type="互补"
+                            break
                     cp_list[cp["companion_id"]] = {
                         "method": [method],
-                        "similarities": [cp['similarity']]
+                        "similarities": [cp['similarity']],
+                        "matchType": [str_type]
                     }
                 else:
                     cp_list[cp["companion_id"]]["method"].append(method)
@@ -232,5 +251,6 @@ if __name__ == '__main__':
     # cp分数范围：[本人分数+score_range[0],本人分数+score_range[1]]
     cp_list = user.getCpList(5, True, False, score_range[0], score_range[1])
     print(len(cp_list))
+    print(cp_list.keys())
     for item in cp_list:
-        print(item,":",cp_list[item])
+        print(item, ":", cp_list[item])

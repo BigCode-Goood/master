@@ -43,14 +43,14 @@ if __name__ == '__main__':
         json_data = json.load(fp)
         for item1 in json_data:  # 遍历比较
             array1 = cutZero(json_data[item1])
-            result_dic[item1] = []
+            result_dic[item1] = {"companions":[]}
             for item2 in json_data:
                 if item1 != item2:
                     array2 = cutZero(json_data[item2])  # 去掉头尾的0
                     similarity = dtw_distance(array1, array2)
                     companion_id = item2
-                    result_dic[item1].append({"companion_id": companion_id, "similarity": similarity})
-            list.sort(result_dic[item1],key=lambda x:x["similarity"])
+                    result_dic[item1]["companions"].append({"companion_id": companion_id, "similarity": similarity})
+            list.sort(result_dic[item1]["companions"], key=lambda x: x["similarity"])
     with open('D:/大二下/数据科学基础/master/JSON/DTWsimilarity.json', 'a', encoding='utf8') as fp2:
         json.dump(result_dic, fp2, ensure_ascii=False)
 # 画图
