@@ -164,7 +164,7 @@ class User:
             res2 = sorted(cp_list2, key=lambda x: x['similarity'], reverse=False)[0:num]
             res3 = []
 
-        length=int(len(cp_list4)/2)
+        length=num*2
         res4 = cp_list4[0:length]
         res5 = sorted(cp_list4, key=lambda x: x['similarity'], reverse=True)[0:length]
         # 列表转存字典
@@ -182,7 +182,7 @@ class User:
                 if not self.isMatch(self.id, cp["companion_id"], lower, greater): continue
                 if cp_list[cp["companion_id"]] is None:
                     print(cp)
-                    str_type = ""
+                    str_type = "各有所长"
                     for i in res4:
                         if i["companion_id"]==cp["companion_id"]:
                             str_type="相似"
