@@ -147,12 +147,12 @@ class User:
         # 余弦相似度
         cp_list2 = self.dataPaser.getCouples(self.id, 1)
         # DTW
-        cp_list3 = []
+        cp_list3 = self.dataPaser.getCouples(self.id, 2)
 
         if similar:
             res1 = sorted(cp_list1, key=lambda x: x['similarity'], reverse=False)[0:num]
             res2 = sorted(cp_list2, key=lambda x: x['similarity'], reverse=True)[0:num]
-            res3 = []
+            res3 = sorted(cp_list3, key=lambda x: x['similarity'], reverse=True)[0:num]
         else:
             res1 = sorted(cp_list1, key=lambda x: x['similarity'], reverse=True)[0:num]
             res2 = sorted(cp_list2, key=lambda x: x['similarity'], reverse=False)[0:num]
@@ -225,7 +225,12 @@ class User:
 if __name__ == '__main__':
     user = User(61406)
     score_range = (0, 10)  # 允许匹配cp的分数差距范围
-    # 参数：每种方法匹配人数，T-相似 F-相反，是否画图，cp分数范围：[本人分数+score_range[0],本人分数+score_range[1]]
+    # 参数：
+    # 每种方法匹配人数，
+    # T-相似 F-相反，
+    # 是否画图，
+    # cp分数范围：[本人分数+score_range[0],本人分数+score_range[1]]
     cp_list = user.getCpList(5, True, False, score_range[0], score_range[1])
     print(len(cp_list))
-    print(cp_list)
+    for item in cp_list:
+        print(item,":",cp_list[item])
