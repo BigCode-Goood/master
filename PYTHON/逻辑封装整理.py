@@ -107,7 +107,7 @@ class PicDrawer:
 
 # 用户类
 # 初始化必需参数：id
-# 初始化同时创建一个DataPaser类对象
+# 初始化同时创建一个DataPaser类对象和PicDrawer类对象
 # 包含成员变量id、detailed_data、personal_progress、fit_func、dataPaser
 # 包含成员方法：获取所有提交信息、获取个人进度数据、获取进度趋势拟合信息、获取匹配cp、分差过大cp过滤
 class User:
