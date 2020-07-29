@@ -5,7 +5,7 @@ import numpy as np
 # 直接在这里改自己的文件位置
 location = {
     "zjy": "D:/大二下/数据科学基础/master/JSON/",
-    "wyq": "",
+    "wyq": "I:/BigCode2/aster/JSON/",
     "fbj": "D:/bigcode/master/JSON/"
 }
 
