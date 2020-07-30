@@ -36,7 +36,7 @@ if __name__ == '__main__':
         json_data = json.load(fp)
     with open('D:/大二下/数据科学基础/master/JSON/雷达图匹配.json', 'r', encoding='utf8') as fp1:
         json_data1 = json.load(fp1)
-    student_id = "48117"
+    student_id = "60785"
     for i in json_data1[student_id]["companions"]:
         data = []
         companion_id = i["companion_id"]
@@ -44,3 +44,9 @@ if __name__ == '__main__':
             if item["id"] == student_id or item["id"] == companion_id:
                 data.append(item)
         plot_radar(data)
+    # data = []
+    # companion_id = "60829"
+    # for item in json_data:
+    #     if item["id"] == student_id or item["id"] == companion_id:
+    #         data.append(item)
+    # plot_radar(data)
