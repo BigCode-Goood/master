@@ -80,7 +80,7 @@ if __name__ == '__main__':
             deriv2 = []
             del_deriv = []
             companion["companion_id"] = item2
-            if item==item2 or (item in g1 and item2 in g4) or (item in g4 and item2 in g1) or (item in g1 and item2 in g2) or (item in g2 and item2 in g1) or (item in g3 and item2 in g2) or (item in g2 and item2 in g3) :
+            if item==item2 :
                 continue
             if item != item2:
                 end = all[item]["end"] if all[item]["end"] <= all[item2]["end"] else all[item2]["end"]
